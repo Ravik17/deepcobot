@@ -1,0 +1,156 @@
+[0.039s] Invoking command in '/home/ravi/pmb2_foxy_ws/build/controller_manager_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ravi/pmb2_foxy_ws/install/launch_pal:/opt/ros/foxy /usr/bin/cmake --build /home/ravi/pmb2_foxy_ws/build/controller_manager_msgs -- -j8 -l8
+[0.222s] [35m[1mScanning dependencies of target controller_manager_msgs__cpp[0m
+[0.222s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[0.222s] [  1%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[0.974s] [35m[1mScanning dependencies of target controller_manager_msgs__rosidl_generator_c[0m
+[0.987s] [  4%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_c.dir/rosidl_generator_c/controller_manager_msgs/srv/detail/list_controller_types__functions.c.o[0m
+[0.987s] [  5%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_c.dir/rosidl_generator_c/controller_manager_msgs/msg/detail/controller_state__functions.c.o[0m
+[0.987s] [  5%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_c.dir/rosidl_generator_c/controller_manager_msgs/srv/detail/list_controllers__functions.c.o[0m
+[0.987s] [  5%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_c.dir/rosidl_generator_c/controller_manager_msgs/srv/detail/list_hardware_interfaces__functions.c.o[0m
+[0.987s] [  4%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_c.dir/rosidl_generator_c/controller_manager_msgs/srv/detail/configure_start_controller__functions.c.o[0m
+[0.987s] [  4%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_c.dir/rosidl_generator_c/controller_manager_msgs/msg/detail/hardware_interface__functions.c.o[0m
+[0.987s] [  6%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_c.dir/rosidl_generator_c/controller_manager_msgs/srv/detail/configure_controller__functions.c.o[0m
+[1.029s] [  8%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_c.dir/rosidl_generator_c/controller_manager_msgs/srv/detail/load_controller__functions.c.o[0m
+[1.029s] [  8%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_c.dir/rosidl_generator_c/controller_manager_msgs/srv/detail/load_configure_controller__functions.c.o[0m
+[1.029s] [  9%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_c.dir/rosidl_generator_c/controller_manager_msgs/srv/detail/load_start_controller__functions.c.o[0m
+[1.032s] [ 10%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_c.dir/rosidl_generator_c/controller_manager_msgs/srv/detail/reload_controller_libraries__functions.c.o[0m
+[1.032s] [ 10%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_c.dir/rosidl_generator_c/controller_manager_msgs/srv/detail/switch_controller__functions.c.o[0m
+[1.046s] [ 11%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_c.dir/rosidl_generator_c/controller_manager_msgs/srv/detail/unload_controller__functions.c.o[0m
+[1.088s] [ 12%] [32m[1mLinking C shared library libcontroller_manager_msgs__rosidl_generator_c.so[0m
+[1.113s] [ 12%] Built target controller_manager_msgs__cpp
+[1.120s] [ 13%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.121s] [ 13%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.121s] [ 14%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.121s] [ 14%] Built target controller_manager_msgs__rosidl_generator_c
+[1.129s] [ 15%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[1.131s] [ 16%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[1.628s] [35m[1mScanning dependencies of target controller_manager_msgs__rosidl_typesupport_cpp[0m
+[1.641s] [ 18%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/controller_manager_msgs/srv/configure_controller__type_support.cpp.o[0m
+[1.641s] [ 18%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/controller_manager_msgs/msg/controller_state__type_support.cpp.o[0m
+[1.641s] [ 19%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/controller_manager_msgs/srv/configure_start_controller__type_support.cpp.o[0m
+[1.642s] [ 19%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/controller_manager_msgs/msg/hardware_interface__type_support.cpp.o[0m
+[1.920s] [ 20%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/controller_manager_msgs/srv/list_controllers__type_support.cpp.o[0m
+[1.928s] [ 21%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/controller_manager_msgs/srv/list_controller_types__type_support.cpp.o[0m
+[1.929s] [ 22%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/controller_manager_msgs/srv/list_hardware_interfaces__type_support.cpp.o[0m
+[1.932s] [ 22%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/controller_manager_msgs/srv/load_configure_controller__type_support.cpp.o[0m
+[2.065s] [35m[1mScanning dependencies of target controller_manager_msgs__rosidl_typesupport_introspection_c[0m
+[2.087s] [ 23%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/controller_manager_msgs/msg/detail/controller_state__type_support.c.o[0m
+[2.121s] [ 24%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/controller_manager_msgs/msg/detail/hardware_interface__type_support.c.o[0m
+[2.129s] [35m[1mScanning dependencies of target controller_manager_msgs__rosidl_typesupport_c[0m
+[2.148s] [ 24%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/controller_manager_msgs/msg/controller_state__type_support.cpp.o[0m
+[2.157s] [ 24%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/controller_manager_msgs/srv/detail/configure_controller__type_support.c.o[0m
+[2.180s] [ 25%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/controller_manager_msgs/msg/hardware_interface__type_support.cpp.o[0m
+[2.194s] [ 26%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/controller_manager_msgs/srv/detail/configure_start_controller__type_support.c.o[0m
+[2.195s] [35m[1mScanning dependencies of target controller_manager_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[2.206s] [ 27%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/controller_manager_msgs/srv/load_controller__type_support.cpp.o[0m
+[2.209s] [ 28%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/controller_manager_msgs/srv/configure_controller__type_support.cpp.o[0m
+[2.217s] [ 29%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/controller_manager_msgs/srv/load_start_controller__type_support.cpp.o[0m
+[2.223s] [ 30%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/controller_manager_msgs/msg/detail/dds_fastrtps/controller_state__type_support.cpp.o[0m
+[2.223s] [ 31%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/controller_manager_msgs/msg/detail/dds_fastrtps/hardware_interface__type_support.cpp.o[0m
+[2.225s] [ 32%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/controller_manager_msgs/srv/detail/dds_fastrtps/configure_controller__type_support.cpp.o[0m
+[2.229s] [ 33%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/controller_manager_msgs/srv/detail/list_controllers__type_support.c.o[0m
+[2.240s] [ 34%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/controller_manager_msgs/srv/configure_start_controller__type_support.cpp.o[0m
+[2.267s] [ 35%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/controller_manager_msgs/srv/detail/list_controller_types__type_support.c.o[0m
+[2.271s] [ 36%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/controller_manager_msgs/srv/list_controllers__type_support.cpp.o[0m
+[2.302s] [ 36%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/controller_manager_msgs/srv/list_controller_types__type_support.cpp.o[0m
+[2.306s] [ 37%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/controller_manager_msgs/srv/detail/list_hardware_interfaces__type_support.c.o[0m
+[2.335s] [ 38%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/controller_manager_msgs/srv/list_hardware_interfaces__type_support.cpp.o[0m
+[2.344s] [ 38%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/controller_manager_msgs/srv/detail/load_configure_controller__type_support.c.o[0m
+[2.367s] [ 39%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/controller_manager_msgs/srv/load_configure_controller__type_support.cpp.o[0m
+[2.388s] [ 40%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/controller_manager_msgs/srv/detail/load_controller__type_support.c.o[0m
+[2.400s] [ 41%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/controller_manager_msgs/srv/load_controller__type_support.cpp.o[0m
+[2.426s] [35m[1mScanning dependencies of target controller_manager_msgs__rosidl_typesupport_introspection_cpp[0m
+[2.426s] [ 42%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/controller_manager_msgs/srv/detail/load_start_controller__type_support.c.o[0m
+[2.439s] [ 43%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/controller_manager_msgs/srv/load_start_controller__type_support.cpp.o[0m
+[2.450s] [ 44%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/controller_manager_msgs/msg/detail/controller_state__type_support.cpp.o[0m
+[2.473s] [ 44%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/controller_manager_msgs/srv/reload_controller_libraries__type_support.cpp.o[0m
+[2.484s] [ 45%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/controller_manager_msgs/srv/detail/reload_controller_libraries__type_support.c.o[0m
+[2.502s] [ 46%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/controller_manager_msgs/srv/switch_controller__type_support.cpp.o[0m
+[2.509s] [ 47%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/controller_manager_msgs/srv/reload_controller_libraries__type_support.cpp.o[0m
+[2.527s] [ 48%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/controller_manager_msgs/msg/detail/hardware_interface__type_support.cpp.o[0m
+[2.528s] [ 49%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/controller_manager_msgs/srv/detail/switch_controller__type_support.c.o[0m
+[2.538s] [ 50%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/controller_manager_msgs/srv/unload_controller__type_support.cpp.o[0m
+[2.567s] [ 50%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/controller_manager_msgs/srv/detail/unload_controller__type_support.c.o[0m
+[2.572s] [ 51%] [32m[1mLinking CXX shared library libcontroller_manager_msgs__rosidl_typesupport_c.so[0m
+[2.604s] [ 52%] [32m[1mLinking C shared library libcontroller_manager_msgs__rosidl_typesupport_introspection_c.so[0m
+[2.617s] [ 52%] Built target controller_manager_msgs__rosidl_typesupport_c
+[2.627s] [ 53%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/controller_manager_msgs/srv/detail/configure_controller__type_support.cpp.o[0m
+[2.637s] [ 53%] Built target controller_manager_msgs__rosidl_typesupport_introspection_c
+[2.646s] [ 54%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/controller_manager_msgs/srv/detail/configure_start_controller__type_support.cpp.o[0m
+[2.646s] [ 54%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/controller_manager_msgs/srv/detail/dds_fastrtps/configure_start_controller__type_support.cpp.o[0m
+[2.684s] [ 55%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/controller_manager_msgs/srv/detail/dds_fastrtps/list_controllers__type_support.cpp.o[0m
+[2.696s] [ 56%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/controller_manager_msgs/srv/detail/dds_fastrtps/list_controller_types__type_support.cpp.o[0m
+[2.803s] [ 56%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/controller_manager_msgs/srv/detail/list_controllers__type_support.cpp.o[0m
+[2.806s] [ 57%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/controller_manager_msgs/srv/switch_controller__type_support.cpp.o[0m
+[2.810s] [ 58%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/controller_manager_msgs/srv/detail/list_controller_types__type_support.cpp.o[0m
+[2.919s] [ 59%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/controller_manager_msgs/srv/detail/list_hardware_interfaces__type_support.cpp.o[0m
+[2.941s] [ 60%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/controller_manager_msgs/srv/detail/load_configure_controller__type_support.cpp.o[0m
+[3.079s] [ 61%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/controller_manager_msgs/srv/detail/dds_fastrtps/list_hardware_interfaces__type_support.cpp.o[0m
+[3.111s] [ 61%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/controller_manager_msgs/srv/unload_controller__type_support.cpp.o[0m
+[3.154s] [ 62%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/controller_manager_msgs/srv/detail/load_controller__type_support.cpp.o[0m
+[3.178s] [ 62%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/controller_manager_msgs/srv/detail/load_start_controller__type_support.cpp.o[0m
+[3.190s] [ 63%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/controller_manager_msgs/srv/detail/dds_fastrtps/load_configure_controller__type_support.cpp.o[0m
+[3.197s] [ 63%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/controller_manager_msgs/srv/detail/dds_fastrtps/load_controller__type_support.cpp.o[0m
+[3.236s] [ 64%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/controller_manager_msgs/srv/detail/reload_controller_libraries__type_support.cpp.o[0m
+[3.274s] [ 65%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/controller_manager_msgs/srv/detail/switch_controller__type_support.cpp.o[0m
+[3.406s] [ 66%] [32m[1mLinking CXX shared library libcontroller_manager_msgs__rosidl_typesupport_cpp.so[0m
+[3.452s] [ 66%] Built target controller_manager_msgs__rosidl_typesupport_cpp
+[3.462s] [ 67%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/controller_manager_msgs/srv/detail/unload_controller__type_support.cpp.o[0m
+[3.467s] [ 68%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/controller_manager_msgs/srv/detail/dds_fastrtps/load_start_controller__type_support.cpp.o[0m
+[3.471s] [ 69%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/controller_manager_msgs/srv/detail/dds_fastrtps/reload_controller_libraries__type_support.cpp.o[0m
+[3.533s] [ 70%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/controller_manager_msgs/srv/detail/dds_fastrtps/switch_controller__type_support.cpp.o[0m
+[3.564s] [ 71%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/controller_manager_msgs/srv/detail/dds_fastrtps/unload_controller__type_support.cpp.o[0m
+[3.731s] [ 72%] [32m[1mLinking CXX shared library libcontroller_manager_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[3.787s] [ 72%] Built target controller_manager_msgs__rosidl_typesupport_introspection_cpp
+[3.944s] [ 72%] [32m[1mLinking CXX shared library libcontroller_manager_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[4.002s] [ 72%] Built target controller_manager_msgs__rosidl_typesupport_fastrtps_cpp
+[4.009s] [ 73%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[4.619s] [35m[1mScanning dependencies of target controller_manager_msgs__rosidl_typesupport_fastrtps_c[0m
+[4.640s] [ 76%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/controller_manager_msgs/srv/detail/configure_start_controller__type_support_c.cpp.o[0m
+[4.640s] [ 76%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/controller_manager_msgs/msg/detail/hardware_interface__type_support_c.cpp.o[0m
+[4.640s] [ 76%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/controller_manager_msgs/msg/detail/controller_state__type_support_c.cpp.o[0m
+[4.640s] [ 76%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/controller_manager_msgs/srv/detail/configure_controller__type_support_c.cpp.o[0m
+[4.640s] [ 77%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/controller_manager_msgs/srv/detail/list_controllers__type_support_c.cpp.o[0m
+[4.640s] [ 78%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/controller_manager_msgs/srv/detail/list_controller_types__type_support_c.cpp.o[0m
+[4.640s] [ 78%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/controller_manager_msgs/srv/detail/list_hardware_interfaces__type_support_c.cpp.o[0m
+[4.640s] [ 79%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/controller_manager_msgs/srv/detail/load_configure_controller__type_support_c.cpp.o[0m
+[4.991s] [ 80%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/controller_manager_msgs/srv/detail/load_controller__type_support_c.cpp.o[0m
+[4.992s] [ 81%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/controller_manager_msgs/srv/detail/load_start_controller__type_support_c.cpp.o[0m
+[4.996s] [ 82%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/controller_manager_msgs/srv/detail/reload_controller_libraries__type_support_c.cpp.o[0m
+[4.997s] [ 82%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/controller_manager_msgs/srv/detail/switch_controller__type_support_c.cpp.o[0m
+[4.997s] [ 83%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/controller_manager_msgs/srv/detail/unload_controller__type_support_c.cpp.o[0m
+[5.322s] [ 84%] [32m[1mLinking CXX shared library libcontroller_manager_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[5.381s] [ 84%] Built target controller_manager_msgs__rosidl_typesupport_fastrtps_c
+[5.387s] [35m[1mScanning dependencies of target controller_manager_msgs[0m
+[5.394s] [ 84%] Built target controller_manager_msgs
+[5.401s] [35m[1mScanning dependencies of target controller_manager_msgs__py[0m
+[5.409s] [ 85%] [34m[1mGenerating Python code for ROS interfaces[0m
+[6.806s] [ 85%] Built target controller_manager_msgs__py
+[6.813s] [35m[1mScanning dependencies of target controller_manager_msgs__python[0m
+[6.838s] [ 87%] [32mBuilding C object CMakeFiles/controller_manager_msgs__python.dir/rosidl_generator_py/controller_manager_msgs/msg/_hardware_interface_s.c.o[0m
+[6.839s] [ 87%] [32mBuilding C object CMakeFiles/controller_manager_msgs__python.dir/rosidl_generator_py/controller_manager_msgs/msg/_controller_state_s.c.o[0m
+[6.839s] [ 88%] [32mBuilding C object CMakeFiles/controller_manager_msgs__python.dir/rosidl_generator_py/controller_manager_msgs/srv/_configure_start_controller_s.c.o[0m
+[6.839s] [ 87%] [32mBuilding C object CMakeFiles/controller_manager_msgs__python.dir/rosidl_generator_py/controller_manager_msgs/srv/_configure_controller_s.c.o[0m
+[6.839s] [ 89%] [32mBuilding C object CMakeFiles/controller_manager_msgs__python.dir/rosidl_generator_py/controller_manager_msgs/srv/_list_controllers_s.c.o[0m
+[6.839s] [ 90%] [32mBuilding C object CMakeFiles/controller_manager_msgs__python.dir/rosidl_generator_py/controller_manager_msgs/srv/_list_controller_types_s.c.o[0m
+[6.839s] [ 91%] [32mBuilding C object CMakeFiles/controller_manager_msgs__python.dir/rosidl_generator_py/controller_manager_msgs/srv/_list_hardware_interfaces_s.c.o[0m
+[6.840s] [ 91%] [32mBuilding C object CMakeFiles/controller_manager_msgs__python.dir/rosidl_generator_py/controller_manager_msgs/srv/_load_configure_controller_s.c.o[0m
+[6.933s] [ 92%] [32mBuilding C object CMakeFiles/controller_manager_msgs__python.dir/rosidl_generator_py/controller_manager_msgs/srv/_load_controller_s.c.o[0m
+[6.933s] [ 94%] [32mBuilding C object CMakeFiles/controller_manager_msgs__python.dir/rosidl_generator_py/controller_manager_msgs/srv/_load_start_controller_s.c.o[0m
+[6.933s] [ 94%] [32mBuilding C object CMakeFiles/controller_manager_msgs__python.dir/rosidl_generator_py/controller_manager_msgs/srv/_reload_controller_libraries_s.c.o[0m
+[6.934s] [ 95%] [32mBuilding C object CMakeFiles/controller_manager_msgs__python.dir/rosidl_generator_py/controller_manager_msgs/srv/_switch_controller_s.c.o[0m
+[6.938s] [ 95%] [32mBuilding C object CMakeFiles/controller_manager_msgs__python.dir/rosidl_generator_py/controller_manager_msgs/srv/_unload_controller_s.c.o[0m
+[7.027s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/controller_manager_msgs/libcontroller_manager_msgs__python.so[0m
+[7.059s] [ 96%] Built target controller_manager_msgs__python
+[7.067s] [35m[1mScanning dependencies of target controller_manager_msgs__rosidl_typesupport_c__pyext[0m
+[7.067s] [35m[1mScanning dependencies of target controller_manager_msgs__rosidl_typesupport_introspection_c__pyext[0m
+[7.067s] [35m[1mScanning dependencies of target controller_manager_msgs__rosidl_typesupport_fastrtps_c__pyext[0m
+[7.080s] [ 97%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/controller_manager_msgs/_controller_manager_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[7.081s] [ 98%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/controller_manager_msgs/_controller_manager_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[7.081s] [ 99%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/controller_manager_msgs/_controller_manager_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[7.182s] [100%] [32m[1mLinking C shared library rosidl_generator_py/controller_manager_msgs/controller_manager_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so[0m
+[7.182s] [100%] [32m[1mLinking C shared library rosidl_generator_py/controller_manager_msgs/controller_manager_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so[0m
+[7.182s] [100%] [32m[1mLinking CXX shared library rosidl_generator_py/controller_manager_msgs/controller_manager_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so[0m
+[7.207s] [100%] Built target controller_manager_msgs__rosidl_typesupport_c__pyext
+[7.207s] [100%] Built target controller_manager_msgs__rosidl_typesupport_introspection_c__pyext
+[7.225s] [100%] Built target controller_manager_msgs__rosidl_typesupport_fastrtps_c__pyext

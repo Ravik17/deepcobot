@@ -1,0 +1,42 @@
+[0.169s] Invoking command in '/home/ravi/pmb2_foxy_ws/build/pmb2_maps': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ravi/pmb2_foxy_ws/install/launch_pal:/opt/ros/foxy /usr/bin/cmake /home/ravi/pmb2_foxy_ws/src/pmb2_navigation/pmb2_maps -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ravi/pmb2_foxy_ws/install/pmb2_maps
+[0.181s] -- Found ament_cmake_auto: 0.9.9 (/opt/ros/foxy/share/ament_cmake_auto/cmake)
+[0.200s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.357s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.444s] -- Configuring done
+[0.446s] -- Generating done
+[0.446s] -- Build files have been written to: /home/ravi/pmb2_foxy_ws/build/pmb2_maps
+[0.460s] Invoked command in '/home/ravi/pmb2_foxy_ws/build/pmb2_maps' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ravi/pmb2_foxy_ws/install/launch_pal:/opt/ros/foxy /usr/bin/cmake /home/ravi/pmb2_foxy_ws/src/pmb2_navigation/pmb2_maps -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ravi/pmb2_foxy_ws/install/pmb2_maps
+[0.463s] Invoking command in '/home/ravi/pmb2_foxy_ws/build/pmb2_maps': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ravi/pmb2_foxy_ws/install/launch_pal:/opt/ros/foxy /usr/bin/cmake --build /home/ravi/pmb2_foxy_ws/build/pmb2_maps -- -j8 -l8
+[0.501s] Invoked command in '/home/ravi/pmb2_foxy_ws/build/pmb2_maps' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ravi/pmb2_foxy_ws/install/launch_pal:/opt/ros/foxy /usr/bin/cmake --build /home/ravi/pmb2_foxy_ws/build/pmb2_maps -- -j8 -l8
+[0.520s] Invoking command in '/home/ravi/pmb2_foxy_ws/build/pmb2_maps': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ravi/pmb2_foxy_ws/install/launch_pal:/opt/ros/foxy /usr/bin/cmake --install /home/ravi/pmb2_foxy_ws/build/pmb2_maps
+[0.528s] -- Install configuration: ""
+[0.528s] -- Execute custom install script
+[0.529s] -- Up-to-date symlink: /home/ravi/pmb2_foxy_ws/install/pmb2_maps/share/pmb2_maps/config/map.pgm
+[0.529s] -- Up-to-date symlink: /home/ravi/pmb2_foxy_ws/install/pmb2_maps/share/pmb2_maps/config/map.yaml
+[0.529s] -- Up-to-date symlink: /home/ravi/pmb2_foxy_ws/install/pmb2_maps/share/pmb2_maps/config/mmap.yaml
+[0.529s] -- Up-to-date symlink: /home/ravi/pmb2_foxy_ws/install/pmb2_maps/share/pmb2_maps/configurations/pal_office/map.pgm
+[0.529s] -- Up-to-date symlink: /home/ravi/pmb2_foxy_ws/install/pmb2_maps/share/pmb2_maps/configurations/pal_office/map.yaml
+[0.529s] -- Up-to-date symlink: /home/ravi/pmb2_foxy_ws/install/pmb2_maps/share/pmb2_maps/configurations/pal_office/mmap.yaml
+[0.530s] -- Up-to-date symlink: /home/ravi/pmb2_foxy_ws/install/pmb2_maps/share/pmb2_maps/configurations/small_office/map.bmp
+[0.530s] -- Up-to-date symlink: /home/ravi/pmb2_foxy_ws/install/pmb2_maps/share/pmb2_maps/configurations/small_office/map.bt
+[0.530s] -- Up-to-date symlink: /home/ravi/pmb2_foxy_ws/install/pmb2_maps/share/pmb2_maps/configurations/small_office/map.ot
+[0.530s] -- Up-to-date symlink: /home/ravi/pmb2_foxy_ws/install/pmb2_maps/share/pmb2_maps/configurations/small_office/map.pgm
+[0.530s] -- Up-to-date symlink: /home/ravi/pmb2_foxy_ws/install/pmb2_maps/share/pmb2_maps/configurations/small_office/map.yaml
+[0.530s] -- Up-to-date symlink: /home/ravi/pmb2_foxy_ws/install/pmb2_maps/share/pmb2_maps/configurations/small_office/mmap.yaml
+[0.530s] -- Up-to-date symlink: /home/ravi/pmb2_foxy_ws/install/pmb2_maps/share/pmb2_maps/configurations/small_office/transformation.yaml
+[0.530s] -- Up-to-date symlink: /home/ravi/pmb2_foxy_ws/install/pmb2_maps/share/ament_index/resource_index/package_run_dependencies/pmb2_maps
+[0.530s] -- Up-to-date symlink: /home/ravi/pmb2_foxy_ws/install/pmb2_maps/share/ament_index/resource_index/parent_prefix_path/pmb2_maps
+[0.531s] -- Up-to-date symlink: /home/ravi/pmb2_foxy_ws/install/pmb2_maps/share/pmb2_maps/environment/ament_prefix_path.sh
+[0.531s] -- Up-to-date symlink: /home/ravi/pmb2_foxy_ws/install/pmb2_maps/share/pmb2_maps/environment/ament_prefix_path.dsv
+[0.531s] -- Up-to-date symlink: /home/ravi/pmb2_foxy_ws/install/pmb2_maps/share/pmb2_maps/environment/path.sh
+[0.531s] -- Up-to-date symlink: /home/ravi/pmb2_foxy_ws/install/pmb2_maps/share/pmb2_maps/environment/path.dsv
+[0.531s] -- Up-to-date symlink: /home/ravi/pmb2_foxy_ws/install/pmb2_maps/share/pmb2_maps/local_setup.bash
+[0.531s] -- Up-to-date symlink: /home/ravi/pmb2_foxy_ws/install/pmb2_maps/share/pmb2_maps/local_setup.sh
+[0.532s] -- Up-to-date symlink: /home/ravi/pmb2_foxy_ws/install/pmb2_maps/share/pmb2_maps/local_setup.zsh
+[0.532s] -- Up-to-date symlink: /home/ravi/pmb2_foxy_ws/install/pmb2_maps/share/pmb2_maps/local_setup.dsv
+[0.532s] -- Symlinking: /home/ravi/pmb2_foxy_ws/install/pmb2_maps/share/pmb2_maps/package.dsv
+[0.541s] -- Up-to-date symlink: /home/ravi/pmb2_foxy_ws/install/pmb2_maps/share/ament_index/resource_index/packages/pmb2_maps
+[0.541s] -- Up-to-date symlink: /home/ravi/pmb2_foxy_ws/install/pmb2_maps/share/pmb2_maps/cmake/pmb2_mapsConfig.cmake
+[0.541s] -- Up-to-date symlink: /home/ravi/pmb2_foxy_ws/install/pmb2_maps/share/pmb2_maps/cmake/pmb2_mapsConfig-version.cmake
+[0.541s] -- Up-to-date symlink: /home/ravi/pmb2_foxy_ws/install/pmb2_maps/share/pmb2_maps/package.xml
+[0.555s] Invoked command in '/home/ravi/pmb2_foxy_ws/build/pmb2_maps' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ravi/pmb2_foxy_ws/install/launch_pal:/opt/ros/foxy /usr/bin/cmake --install /home/ravi/pmb2_foxy_ws/build/pmb2_maps

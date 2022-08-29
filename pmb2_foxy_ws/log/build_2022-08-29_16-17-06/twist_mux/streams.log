@@ -1,0 +1,83 @@
+[0.248s] Invoking command in '/home/ravi/pmb2_foxy_ws/build/twist_mux': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ravi/pmb2_foxy_ws/install/ros2controlcli:/home/ravi/pmb2_foxy_ws/install/launch_pal:/opt/ros/foxy /usr/bin/cmake /home/ravi/pmb2_foxy_ws/src/twist_mux -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ravi/pmb2_foxy_ws/install/twist_mux
+[0.262s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.286s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.431s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.439s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.470s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.474s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.612s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.672s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.678s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.849s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[0.889s] -- Found visualization_msgs: 2.0.5 (/opt/ros/foxy/share/visualization_msgs/cmake)
+[0.971s] -- Found diagnostic_updater: 2.0.8 (/opt/ros/foxy/share/diagnostic_updater/cmake)
+[1.081s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.178s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[1.207s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[1.212s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") 
+[1.212s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.212s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[1.212s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[1.235s] -- Found PythonExtra: .so  
+[1.247s] -- Added test 'xmllint' to check XML markup files
+[1.247s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.249s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.249s] -- Configured cppcheck include dirs: /home/ravi/pmb2_foxy_ws/src/twist_mux/include
+[1.249s] -- Configured cppcheck exclude dirs and/or files: 
+[1.251s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.251s] -- Configured cpplint exclude dirs and/or files: 
+[1.252s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.253s] -- Added test 'lint_cmake' to check CMake code style
+[1.253s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[1.256s] -- Added test 'uncrustify' to check C / C++ code style
+[1.256s] -- Configured uncrustify additional arguments: 
+[1.260s] -- Configuring done
+[1.284s] -- Generating done
+[1.284s] -- Build files have been written to: /home/ravi/pmb2_foxy_ws/build/twist_mux
+[1.290s] Invoked command in '/home/ravi/pmb2_foxy_ws/build/twist_mux' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ravi/pmb2_foxy_ws/install/ros2controlcli:/home/ravi/pmb2_foxy_ws/install/launch_pal:/opt/ros/foxy /usr/bin/cmake /home/ravi/pmb2_foxy_ws/src/twist_mux -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ravi/pmb2_foxy_ws/install/twist_mux
+[1.294s] Invoking command in '/home/ravi/pmb2_foxy_ws/build/twist_mux': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ravi/pmb2_foxy_ws/install/ros2controlcli:/home/ravi/pmb2_foxy_ws/install/launch_pal:/opt/ros/foxy /usr/bin/cmake --build /home/ravi/pmb2_foxy_ws/build/twist_mux -- -j8 -l8
+[1.343s] [35m[1mScanning dependencies of target twist_marker[0m
+[1.351s] [35m[1mScanning dependencies of target twist_mux[0m
+[1.383s] [ 16%] [32mBuilding CXX object CMakeFiles/twist_marker.dir/src/twist_marker.cpp.o[0m
+[1.392s] [ 33%] [32mBuilding CXX object CMakeFiles/twist_mux.dir/src/twist_mux.cpp.o[0m
+[1.393s] [ 50%] [32mBuilding CXX object CMakeFiles/twist_mux.dir/src/twist_mux_node.cpp.o[0m
+[1.393s] [ 66%] [32mBuilding CXX object CMakeFiles/twist_mux.dir/src/twist_mux_diagnostics.cpp.o[0m
+[5.994s] [ 83%] [32m[1mLinking CXX executable twist_marker[0m
+[6.480s] [ 83%] Built target twist_marker
+[7.873s] [100%] [32m[1mLinking CXX executable twist_mux[0m
+[8.149s] [100%] Built target twist_mux
+[8.156s] Invoked command in '/home/ravi/pmb2_foxy_ws/build/twist_mux' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ravi/pmb2_foxy_ws/install/ros2controlcli:/home/ravi/pmb2_foxy_ws/install/launch_pal:/opt/ros/foxy /usr/bin/cmake --build /home/ravi/pmb2_foxy_ws/build/twist_mux -- -j8 -l8
+[8.181s] Invoking command in '/home/ravi/pmb2_foxy_ws/build/twist_mux': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ravi/pmb2_foxy_ws/install/ros2controlcli:/home/ravi/pmb2_foxy_ws/install/launch_pal:/opt/ros/foxy /usr/bin/cmake --install /home/ravi/pmb2_foxy_ws/build/twist_mux
+[8.187s] -- Install configuration: ""
+[8.187s] -- Execute custom install script
+[8.187s] -- Symlinking: /home/ravi/pmb2_foxy_ws/install/twist_mux/lib/twist_mux/twist_mux
+[8.194s] -- Symlinking: /home/ravi/pmb2_foxy_ws/install/twist_mux/lib/twist_mux/twist_marker
+[8.201s] -- Symlinking: /home/ravi/pmb2_foxy_ws/install/twist_mux/share/twist_mux/launch/twist_mux.launch
+[8.208s] -- Symlinking: /home/ravi/pmb2_foxy_ws/install/twist_mux/share/twist_mux/launch/twist_mux_launch.py
+[8.214s] -- Symlinking: /home/ravi/pmb2_foxy_ws/install/twist_mux/share/twist_mux/config/joystick.yaml
+[8.220s] -- Symlinking: /home/ravi/pmb2_foxy_ws/install/twist_mux/share/twist_mux/config/twist_mux_locks.yaml
+[8.227s] -- Symlinking: /home/ravi/pmb2_foxy_ws/install/twist_mux/share/twist_mux/config/twist_mux_topics.yaml
+[8.234s] -- Symlinking: /home/ravi/pmb2_foxy_ws/install/twist_mux/include/twist_mux/params_helpers.hpp
+[8.240s] -- Symlinking: /home/ravi/pmb2_foxy_ws/install/twist_mux/include/twist_mux/topic_handle.hpp
+[8.246s] -- Symlinking: /home/ravi/pmb2_foxy_ws/install/twist_mux/include/twist_mux/twist_mux.hpp
+[8.253s] -- Symlinking: /home/ravi/pmb2_foxy_ws/install/twist_mux/include/twist_mux/twist_mux_diagnostics.hpp
+[8.260s] -- Symlinking: /home/ravi/pmb2_foxy_ws/install/twist_mux/include/twist_mux/twist_mux_diagnostics_status.hpp
+[8.266s] -- Symlinking: /home/ravi/pmb2_foxy_ws/install/twist_mux/include/twist_mux/utils.hpp
+[8.273s] -- Symlinking: /home/ravi/pmb2_foxy_ws/install/twist_mux/share/ament_index/resource_index/package_run_dependencies/twist_mux
+[8.281s] -- Symlinking: /home/ravi/pmb2_foxy_ws/install/twist_mux/share/ament_index/resource_index/parent_prefix_path/twist_mux
+[8.286s] -- Symlinking: /home/ravi/pmb2_foxy_ws/install/twist_mux/share/twist_mux/environment/ament_prefix_path.sh
+[8.293s] -- Symlinking: /home/ravi/pmb2_foxy_ws/install/twist_mux/share/twist_mux/environment/ament_prefix_path.dsv
+[8.299s] -- Symlinking: /home/ravi/pmb2_foxy_ws/install/twist_mux/share/twist_mux/environment/path.sh
+[8.305s] -- Symlinking: /home/ravi/pmb2_foxy_ws/install/twist_mux/share/twist_mux/environment/path.dsv
+[8.312s] -- Symlinking: /home/ravi/pmb2_foxy_ws/install/twist_mux/share/twist_mux/local_setup.bash
+[8.318s] -- Symlinking: /home/ravi/pmb2_foxy_ws/install/twist_mux/share/twist_mux/local_setup.sh
+[8.325s] -- Symlinking: /home/ravi/pmb2_foxy_ws/install/twist_mux/share/twist_mux/local_setup.zsh
+[8.331s] -- Symlinking: /home/ravi/pmb2_foxy_ws/install/twist_mux/share/twist_mux/local_setup.dsv
+[8.338s] -- Symlinking: /home/ravi/pmb2_foxy_ws/install/twist_mux/share/twist_mux/package.dsv
+[8.344s] -- Symlinking: /home/ravi/pmb2_foxy_ws/install/twist_mux/share/ament_index/resource_index/packages/twist_mux
+[8.351s] -- Symlinking: /home/ravi/pmb2_foxy_ws/install/twist_mux/share/twist_mux/cmake/ament_cmake_export_include_directories-extras.cmake
+[8.357s] -- Symlinking: /home/ravi/pmb2_foxy_ws/install/twist_mux/share/twist_mux/cmake/ament_cmake_export_dependencies-extras.cmake
+[8.364s] -- Symlinking: /home/ravi/pmb2_foxy_ws/install/twist_mux/share/twist_mux/cmake/twist_muxConfig.cmake
+[8.370s] -- Symlinking: /home/ravi/pmb2_foxy_ws/install/twist_mux/share/twist_mux/cmake/twist_muxConfig-version.cmake
+[8.376s] -- Symlinking: /home/ravi/pmb2_foxy_ws/install/twist_mux/share/twist_mux/package.xml
+[8.386s] Invoked command in '/home/ravi/pmb2_foxy_ws/build/twist_mux' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ravi/pmb2_foxy_ws/install/ros2controlcli:/home/ravi/pmb2_foxy_ws/install/launch_pal:/opt/ros/foxy /usr/bin/cmake --install /home/ravi/pmb2_foxy_ws/build/twist_mux

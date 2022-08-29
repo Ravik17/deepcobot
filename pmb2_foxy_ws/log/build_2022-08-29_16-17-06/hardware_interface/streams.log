@@ -1,0 +1,90 @@
+[0.025s] Invoking command in '/home/ravi/pmb2_foxy_ws/build/hardware_interface': CMAKE_PREFIX_PATH=/home/ravi/pmb2_foxy_ws/install/ros2_control_test_assets:/home/ravi/pmb2_foxy_ws/install/transmission_interface:/home/ravi/pmb2_foxy_ws/install/ros2_control:/home/ravi/pmb2_foxy_ws/install/controller_manager:/home/ravi/pmb2_foxy_ws/install/controller_interface:/home/ravi/pmb2_foxy_ws/install/hardware_interface:/home/ravi/pmb2_foxy_ws/install/controller_manager_msgs:/home/ravi/pmb2_foxy_ws/install/gazebo_ros_pkgs:/home/ravi/pmb2_foxy_ws/install/gazebo_plugins:/home/ravi/pmb2_foxy_ws/install/gazebo_ros:/home/ravi/pmb2_foxy_ws/install/gazebo_msgs:/home/ravi/pmb2_foxy_ws/install/gazebo_dev:/home/ravi/pmb2_foxy_ws/install/pal_gazebo_worlds:/home/ravi/pmb2_foxy_ws/install/pmb2_simulation:/home/ravi/pmb2_foxy_ws/install/pmb2_navigation:/home/ravi/pmb2_foxy_ws/install/pmb2_2dnav_gazebo:/home/ravi/pmb2_foxy_ws/install/pmb2_2dnav:/home/ravi/pmb2_foxy_ws/install/pmb2_maps:/home/ravi/pmb2_foxy_ws/install/pmb2_gazebo:/home/ravi/pmb2_foxy_ws/install/pmb2_robot:/home/ravi/pmb2_foxy_ws/install/pmb2_bringup:/home/ravi/pmb2_foxy_ws/install/pmb2_description:/home/ravi/pmb2_foxy_ws/install/pmb2_controller_configuration:/home/ravi/pmb2_foxy_ws/install/ros2controlcli:/home/ravi/pmb2_foxy_ws/install/launch_pal:/opt/ros/foxy /usr/bin/cmake /home/ravi/pmb2_foxy_ws/src/ros2_control/hardware_interface -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ravi/pmb2_foxy_ws/install/hardware_interface
+[0.044s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.068s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.196s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.201s] -- Found control_msgs: 2.5.1 (/opt/ros/foxy/share/control_msgs/cmake)
+[0.218s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.220s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.313s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.683s] -- Found pluginlib: 2.5.4 (/opt/ros/foxy/share/pluginlib/cmake)
+[0.724s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.772s] -- Found gmock sources under '/opt/ros/foxy/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[0.773s] -- Found ament_cmake_gtest: 0.9.9 (/opt/ros/foxy/share/ament_cmake_gtest/cmake)
+[0.774s] -- Found gtest sources under '/opt/ros/foxy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[0.787s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.788s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.788s] -- Configured cppcheck include dirs: /home/ravi/pmb2_foxy_ws/src/ros2_control/hardware_interface/include
+[0.788s] -- Configured cppcheck exclude dirs and/or files: 
+[0.789s] -- Added test 'lint_cmake' to check CMake code style
+[0.789s] -- Added test 'xmllint' to check XML markup files
+[0.793s] -- Configuring done
+[0.833s] -- Generating done
+[0.836s] -- Build files have been written to: /home/ravi/pmb2_foxy_ws/build/hardware_interface
+[0.844s] Invoked command in '/home/ravi/pmb2_foxy_ws/build/hardware_interface' returned '0': CMAKE_PREFIX_PATH=/home/ravi/pmb2_foxy_ws/install/ros2_control_test_assets:/home/ravi/pmb2_foxy_ws/install/transmission_interface:/home/ravi/pmb2_foxy_ws/install/ros2_control:/home/ravi/pmb2_foxy_ws/install/controller_manager:/home/ravi/pmb2_foxy_ws/install/controller_interface:/home/ravi/pmb2_foxy_ws/install/hardware_interface:/home/ravi/pmb2_foxy_ws/install/controller_manager_msgs:/home/ravi/pmb2_foxy_ws/install/gazebo_ros_pkgs:/home/ravi/pmb2_foxy_ws/install/gazebo_plugins:/home/ravi/pmb2_foxy_ws/install/gazebo_ros:/home/ravi/pmb2_foxy_ws/install/gazebo_msgs:/home/ravi/pmb2_foxy_ws/install/gazebo_dev:/home/ravi/pmb2_foxy_ws/install/pal_gazebo_worlds:/home/ravi/pmb2_foxy_ws/install/pmb2_simulation:/home/ravi/pmb2_foxy_ws/install/pmb2_navigation:/home/ravi/pmb2_foxy_ws/install/pmb2_2dnav_gazebo:/home/ravi/pmb2_foxy_ws/install/pmb2_2dnav:/home/ravi/pmb2_foxy_ws/install/pmb2_maps:/home/ravi/pmb2_foxy_ws/install/pmb2_gazebo:/home/ravi/pmb2_foxy_ws/install/pmb2_robot:/home/ravi/pmb2_foxy_ws/install/pmb2_bringup:/home/ravi/pmb2_foxy_ws/install/pmb2_description:/home/ravi/pmb2_foxy_ws/install/pmb2_controller_configuration:/home/ravi/pmb2_foxy_ws/install/ros2controlcli:/home/ravi/pmb2_foxy_ws/install/launch_pal:/opt/ros/foxy /usr/bin/cmake /home/ravi/pmb2_foxy_ws/src/ros2_control/hardware_interface -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ravi/pmb2_foxy_ws/install/hardware_interface
+[0.847s] Invoking command in '/home/ravi/pmb2_foxy_ws/build/hardware_interface': CMAKE_PREFIX_PATH=/home/ravi/pmb2_foxy_ws/install/ros2_control_test_assets:/home/ravi/pmb2_foxy_ws/install/transmission_interface:/home/ravi/pmb2_foxy_ws/install/ros2_control:/home/ravi/pmb2_foxy_ws/install/controller_manager:/home/ravi/pmb2_foxy_ws/install/controller_interface:/home/ravi/pmb2_foxy_ws/install/hardware_interface:/home/ravi/pmb2_foxy_ws/install/controller_manager_msgs:/home/ravi/pmb2_foxy_ws/install/gazebo_ros_pkgs:/home/ravi/pmb2_foxy_ws/install/gazebo_plugins:/home/ravi/pmb2_foxy_ws/install/gazebo_ros:/home/ravi/pmb2_foxy_ws/install/gazebo_msgs:/home/ravi/pmb2_foxy_ws/install/gazebo_dev:/home/ravi/pmb2_foxy_ws/install/pal_gazebo_worlds:/home/ravi/pmb2_foxy_ws/install/pmb2_simulation:/home/ravi/pmb2_foxy_ws/install/pmb2_navigation:/home/ravi/pmb2_foxy_ws/install/pmb2_2dnav_gazebo:/home/ravi/pmb2_foxy_ws/install/pmb2_2dnav:/home/ravi/pmb2_foxy_ws/install/pmb2_maps:/home/ravi/pmb2_foxy_ws/install/pmb2_gazebo:/home/ravi/pmb2_foxy_ws/install/pmb2_robot:/home/ravi/pmb2_foxy_ws/install/pmb2_bringup:/home/ravi/pmb2_foxy_ws/install/pmb2_description:/home/ravi/pmb2_foxy_ws/install/pmb2_controller_configuration:/home/ravi/pmb2_foxy_ws/install/ros2controlcli:/home/ravi/pmb2_foxy_ws/install/launch_pal:/opt/ros/foxy /usr/bin/cmake --build /home/ravi/pmb2_foxy_ws/build/hardware_interface -- -j8 -l8
+[0.893s] [  8%] Built target gmock
+[0.893s] [ 14%] Built target gmock_main
+[0.898s] [ 32%] Built target hardware_interface
+[0.915s] [ 38%] Built target test_macros
+[0.932s] [ 44%] Built target test_component_interfaces
+[0.935s] [ 50%] Built target fake_components
+[0.949s] [ 55%] Built target test_component_parser
+[0.949s] [ 61%] Built target test_joint_handle
+[0.949s] [ 73%] Built target test_components
+[0.950s] [ 79%] Built target test_resource_manager
+[0.951s] [ 94%] Built target test_hardware_components
+[0.952s] [100%] Built target test_generic_system
+[0.961s] Invoked command in '/home/ravi/pmb2_foxy_ws/build/hardware_interface' returned '0': CMAKE_PREFIX_PATH=/home/ravi/pmb2_foxy_ws/install/ros2_control_test_assets:/home/ravi/pmb2_foxy_ws/install/transmission_interface:/home/ravi/pmb2_foxy_ws/install/ros2_control:/home/ravi/pmb2_foxy_ws/install/controller_manager:/home/ravi/pmb2_foxy_ws/install/controller_interface:/home/ravi/pmb2_foxy_ws/install/hardware_interface:/home/ravi/pmb2_foxy_ws/install/controller_manager_msgs:/home/ravi/pmb2_foxy_ws/install/gazebo_ros_pkgs:/home/ravi/pmb2_foxy_ws/install/gazebo_plugins:/home/ravi/pmb2_foxy_ws/install/gazebo_ros:/home/ravi/pmb2_foxy_ws/install/gazebo_msgs:/home/ravi/pmb2_foxy_ws/install/gazebo_dev:/home/ravi/pmb2_foxy_ws/install/pal_gazebo_worlds:/home/ravi/pmb2_foxy_ws/install/pmb2_simulation:/home/ravi/pmb2_foxy_ws/install/pmb2_navigation:/home/ravi/pmb2_foxy_ws/install/pmb2_2dnav_gazebo:/home/ravi/pmb2_foxy_ws/install/pmb2_2dnav:/home/ravi/pmb2_foxy_ws/install/pmb2_maps:/home/ravi/pmb2_foxy_ws/install/pmb2_gazebo:/home/ravi/pmb2_foxy_ws/install/pmb2_robot:/home/ravi/pmb2_foxy_ws/install/pmb2_bringup:/home/ravi/pmb2_foxy_ws/install/pmb2_description:/home/ravi/pmb2_foxy_ws/install/pmb2_controller_configuration:/home/ravi/pmb2_foxy_ws/install/ros2controlcli:/home/ravi/pmb2_foxy_ws/install/launch_pal:/opt/ros/foxy /usr/bin/cmake --build /home/ravi/pmb2_foxy_ws/build/hardware_interface -- -j8 -l8
+[1.041s] Invoking command in '/home/ravi/pmb2_foxy_ws/build/hardware_interface': CMAKE_PREFIX_PATH=/home/ravi/pmb2_foxy_ws/install/ros2_control_test_assets:/home/ravi/pmb2_foxy_ws/install/transmission_interface:/home/ravi/pmb2_foxy_ws/install/ros2_control:/home/ravi/pmb2_foxy_ws/install/controller_manager:/home/ravi/pmb2_foxy_ws/install/controller_interface:/home/ravi/pmb2_foxy_ws/install/hardware_interface:/home/ravi/pmb2_foxy_ws/install/controller_manager_msgs:/home/ravi/pmb2_foxy_ws/install/gazebo_ros_pkgs:/home/ravi/pmb2_foxy_ws/install/gazebo_plugins:/home/ravi/pmb2_foxy_ws/install/gazebo_ros:/home/ravi/pmb2_foxy_ws/install/gazebo_msgs:/home/ravi/pmb2_foxy_ws/install/gazebo_dev:/home/ravi/pmb2_foxy_ws/install/pal_gazebo_worlds:/home/ravi/pmb2_foxy_ws/install/pmb2_simulation:/home/ravi/pmb2_foxy_ws/install/pmb2_navigation:/home/ravi/pmb2_foxy_ws/install/pmb2_2dnav_gazebo:/home/ravi/pmb2_foxy_ws/install/pmb2_2dnav:/home/ravi/pmb2_foxy_ws/install/pmb2_maps:/home/ravi/pmb2_foxy_ws/install/pmb2_gazebo:/home/ravi/pmb2_foxy_ws/install/pmb2_robot:/home/ravi/pmb2_foxy_ws/install/pmb2_bringup:/home/ravi/pmb2_foxy_ws/install/pmb2_description:/home/ravi/pmb2_foxy_ws/install/pmb2_controller_configuration:/home/ravi/pmb2_foxy_ws/install/ros2controlcli:/home/ravi/pmb2_foxy_ws/install/launch_pal:/opt/ros/foxy /usr/bin/cmake --install /home/ravi/pmb2_foxy_ws/build/hardware_interface
+[1.052s] -- Install configuration: ""
+[1.053s] -- Execute custom install script
+[1.053s] -- Up-to-date symlink: /home/ravi/pmb2_foxy_ws/install/hardware_interface/share/hardware_interface//fake_components_plugin_description.xml
+[1.054s] -- Up-to-date symlink: /home/ravi/pmb2_foxy_ws/install/hardware_interface/include/fake_components/generic_system.hpp
+[1.054s] -- Up-to-date symlink: /home/ravi/pmb2_foxy_ws/install/hardware_interface/include/fake_components/visibility_control.h
+[1.054s] -- Up-to-date symlink: /home/ravi/pmb2_foxy_ws/install/hardware_interface/include/hardware_interface/actuator.hpp
+[1.054s] -- Up-to-date symlink: /home/ravi/pmb2_foxy_ws/install/hardware_interface/include/hardware_interface/actuator_interface.hpp
+[1.054s] -- Up-to-date symlink: /home/ravi/pmb2_foxy_ws/install/hardware_interface/include/hardware_interface/base_interface.hpp
+[1.054s] -- Up-to-date symlink: /home/ravi/pmb2_foxy_ws/install/hardware_interface/include/hardware_interface/component_parser.hpp
+[1.055s] -- Up-to-date symlink: /home/ravi/pmb2_foxy_ws/install/hardware_interface/include/hardware_interface/controller_info.hpp
+[1.055s] -- Up-to-date symlink: /home/ravi/pmb2_foxy_ws/install/hardware_interface/include/hardware_interface/handle.hpp
+[1.055s] -- Up-to-date symlink: /home/ravi/pmb2_foxy_ws/install/hardware_interface/include/hardware_interface/hardware_info.hpp
+[1.055s] -- Up-to-date symlink: /home/ravi/pmb2_foxy_ws/install/hardware_interface/include/hardware_interface/loaned_command_interface.hpp
+[1.055s] -- Up-to-date symlink: /home/ravi/pmb2_foxy_ws/install/hardware_interface/include/hardware_interface/loaned_state_interface.hpp
+[1.055s] -- Up-to-date symlink: /home/ravi/pmb2_foxy_ws/install/hardware_interface/include/hardware_interface/macros.hpp
+[1.055s] -- Up-to-date symlink: /home/ravi/pmb2_foxy_ws/install/hardware_interface/include/hardware_interface/resource_manager.hpp
+[1.056s] -- Up-to-date symlink: /home/ravi/pmb2_foxy_ws/install/hardware_interface/include/hardware_interface/sensor.hpp
+[1.056s] -- Up-to-date symlink: /home/ravi/pmb2_foxy_ws/install/hardware_interface/include/hardware_interface/sensor_interface.hpp
+[1.056s] -- Up-to-date symlink: /home/ravi/pmb2_foxy_ws/install/hardware_interface/include/hardware_interface/system.hpp
+[1.056s] -- Up-to-date symlink: /home/ravi/pmb2_foxy_ws/install/hardware_interface/include/hardware_interface/system_interface.hpp
+[1.056s] -- Up-to-date symlink: /home/ravi/pmb2_foxy_ws/install/hardware_interface/include/hardware_interface/types/hardware_interface_return_values.hpp
+[1.056s] -- Up-to-date symlink: /home/ravi/pmb2_foxy_ws/install/hardware_interface/include/hardware_interface/types/hardware_interface_status_values.hpp
+[1.056s] -- Up-to-date symlink: /home/ravi/pmb2_foxy_ws/install/hardware_interface/include/hardware_interface/types/hardware_interface_type_values.hpp
+[1.057s] -- Up-to-date symlink: /home/ravi/pmb2_foxy_ws/install/hardware_interface/include/hardware_interface/visibility_control.h
+[1.057s] -- Up-to-date symlink: /home/ravi/pmb2_foxy_ws/install/hardware_interface/lib/libfake_components.so
+[1.058s] -- Up-to-date symlink: /home/ravi/pmb2_foxy_ws/install/hardware_interface/lib/libhardware_interface.so
+[1.058s] -- Up-to-date symlink: /home/ravi/pmb2_foxy_ws/install/hardware_interface/lib/libtest_components.so
+[1.058s] -- Up-to-date symlink: /home/ravi/pmb2_foxy_ws/install/hardware_interface/share/hardware_interface/test/test_components/test_components.xml
+[1.058s] -- Up-to-date symlink: /home/ravi/pmb2_foxy_ws/install/hardware_interface/lib/libtest_hardware_components.so
+[1.058s] -- Up-to-date symlink: /home/ravi/pmb2_foxy_ws/install/hardware_interface/share/hardware_interface/test/test_hardware_components/test_hardware_components.xml
+[1.060s] -- Up-to-date symlink: /home/ravi/pmb2_foxy_ws/install/hardware_interface/share/hardware_interface/environment/library_path.sh
+[1.060s] -- Up-to-date symlink: /home/ravi/pmb2_foxy_ws/install/hardware_interface/share/hardware_interface/environment/library_path.dsv
+[1.060s] -- Up-to-date symlink: /home/ravi/pmb2_foxy_ws/install/hardware_interface/share/ament_index/resource_index/package_run_dependencies/hardware_interface
+[1.060s] -- Up-to-date symlink: /home/ravi/pmb2_foxy_ws/install/hardware_interface/share/ament_index/resource_index/parent_prefix_path/hardware_interface
+[1.060s] -- Up-to-date symlink: /home/ravi/pmb2_foxy_ws/install/hardware_interface/share/hardware_interface/environment/ament_prefix_path.sh
+[1.060s] -- Up-to-date symlink: /home/ravi/pmb2_foxy_ws/install/hardware_interface/share/hardware_interface/environment/ament_prefix_path.dsv
+[1.060s] -- Up-to-date symlink: /home/ravi/pmb2_foxy_ws/install/hardware_interface/share/hardware_interface/environment/path.sh
+[1.060s] -- Up-to-date symlink: /home/ravi/pmb2_foxy_ws/install/hardware_interface/share/hardware_interface/environment/path.dsv
+[1.061s] -- Up-to-date symlink: /home/ravi/pmb2_foxy_ws/install/hardware_interface/share/hardware_interface/local_setup.bash
+[1.061s] -- Up-to-date symlink: /home/ravi/pmb2_foxy_ws/install/hardware_interface/share/hardware_interface/local_setup.sh
+[1.061s] -- Up-to-date symlink: /home/ravi/pmb2_foxy_ws/install/hardware_interface/share/hardware_interface/local_setup.zsh
+[1.061s] -- Up-to-date symlink: /home/ravi/pmb2_foxy_ws/install/hardware_interface/share/hardware_interface/local_setup.dsv
+[1.061s] -- Symlinking: /home/ravi/pmb2_foxy_ws/install/hardware_interface/share/hardware_interface/package.dsv
+[1.071s] -- Up-to-date symlink: /home/ravi/pmb2_foxy_ws/install/hardware_interface/share/ament_index/resource_index/packages/hardware_interface
+[1.072s] -- Up-to-date symlink: /home/ravi/pmb2_foxy_ws/install/hardware_interface/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/hardware_interface
+[1.072s] -- Up-to-date symlink: /home/ravi/pmb2_foxy_ws/install/hardware_interface/share/hardware_interface/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.072s] -- Up-to-date symlink: /home/ravi/pmb2_foxy_ws/install/hardware_interface/share/hardware_interface/cmake/ament_cmake_export_libraries-extras.cmake
+[1.072s] -- Up-to-date symlink: /home/ravi/pmb2_foxy_ws/install/hardware_interface/share/hardware_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.073s] -- Up-to-date symlink: /home/ravi/pmb2_foxy_ws/install/hardware_interface/share/hardware_interface/cmake/hardware_interfaceConfig.cmake
+[1.073s] -- Up-to-date symlink: /home/ravi/pmb2_foxy_ws/install/hardware_interface/share/hardware_interface/cmake/hardware_interfaceConfig-version.cmake
+[1.073s] -- Up-to-date symlink: /home/ravi/pmb2_foxy_ws/install/hardware_interface/share/hardware_interface/package.xml
+[1.078s] Invoked command in '/home/ravi/pmb2_foxy_ws/build/hardware_interface' returned '0': CMAKE_PREFIX_PATH=/home/ravi/pmb2_foxy_ws/install/ros2_control_test_assets:/home/ravi/pmb2_foxy_ws/install/transmission_interface:/home/ravi/pmb2_foxy_ws/install/ros2_control:/home/ravi/pmb2_foxy_ws/install/controller_manager:/home/ravi/pmb2_foxy_ws/install/controller_interface:/home/ravi/pmb2_foxy_ws/install/hardware_interface:/home/ravi/pmb2_foxy_ws/install/controller_manager_msgs:/home/ravi/pmb2_foxy_ws/install/gazebo_ros_pkgs:/home/ravi/pmb2_foxy_ws/install/gazebo_plugins:/home/ravi/pmb2_foxy_ws/install/gazebo_ros:/home/ravi/pmb2_foxy_ws/install/gazebo_msgs:/home/ravi/pmb2_foxy_ws/install/gazebo_dev:/home/ravi/pmb2_foxy_ws/install/pal_gazebo_worlds:/home/ravi/pmb2_foxy_ws/install/pmb2_simulation:/home/ravi/pmb2_foxy_ws/install/pmb2_navigation:/home/ravi/pmb2_foxy_ws/install/pmb2_2dnav_gazebo:/home/ravi/pmb2_foxy_ws/install/pmb2_2dnav:/home/ravi/pmb2_foxy_ws/install/pmb2_maps:/home/ravi/pmb2_foxy_ws/install/pmb2_gazebo:/home/ravi/pmb2_foxy_ws/install/pmb2_robot:/home/ravi/pmb2_foxy_ws/install/pmb2_bringup:/home/ravi/pmb2_foxy_ws/install/pmb2_description:/home/ravi/pmb2_foxy_ws/install/pmb2_controller_configuration:/home/ravi/pmb2_foxy_ws/install/ros2controlcli:/home/ravi/pmb2_foxy_ws/install/launch_pal:/opt/ros/foxy /usr/bin/cmake --install /home/ravi/pmb2_foxy_ws/build/hardware_interface

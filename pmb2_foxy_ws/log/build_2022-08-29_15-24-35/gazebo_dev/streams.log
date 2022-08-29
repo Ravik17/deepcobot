@@ -1,0 +1,30 @@
+[0.046s] Invoking command in '/home/ravi/pmb2_foxy_ws/build/gazebo_dev': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ravi/pmb2_foxy_ws/install/launch_pal:/opt/ros/foxy /usr/bin/cmake /home/ravi/pmb2_foxy_ws/src/gazebo_ros_pkgs/gazebo_dev -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ravi/pmb2_foxy_ws/install/gazebo_dev
+[0.206s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.207s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.208s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.253s] -- Configuring done
+[0.255s] -- Generating done
+[0.256s] -- Build files have been written to: /home/ravi/pmb2_foxy_ws/build/gazebo_dev
+[0.258s] Invoked command in '/home/ravi/pmb2_foxy_ws/build/gazebo_dev' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ravi/pmb2_foxy_ws/install/launch_pal:/opt/ros/foxy /usr/bin/cmake /home/ravi/pmb2_foxy_ws/src/gazebo_ros_pkgs/gazebo_dev -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ravi/pmb2_foxy_ws/install/gazebo_dev
+[0.261s] Invoking command in '/home/ravi/pmb2_foxy_ws/build/gazebo_dev': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ravi/pmb2_foxy_ws/install/launch_pal:/opt/ros/foxy /usr/bin/cmake --build /home/ravi/pmb2_foxy_ws/build/gazebo_dev -- -j8 -l8
+[0.299s] Invoked command in '/home/ravi/pmb2_foxy_ws/build/gazebo_dev' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ravi/pmb2_foxy_ws/install/launch_pal:/opt/ros/foxy /usr/bin/cmake --build /home/ravi/pmb2_foxy_ws/build/gazebo_dev -- -j8 -l8
+[0.330s] Invoking command in '/home/ravi/pmb2_foxy_ws/build/gazebo_dev': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ravi/pmb2_foxy_ws/install/launch_pal:/opt/ros/foxy /usr/bin/cmake --install /home/ravi/pmb2_foxy_ws/build/gazebo_dev
+[0.339s] -- Install configuration: ""
+[0.340s] -- Execute custom install script
+[0.340s] -- Symlinking: /home/ravi/pmb2_foxy_ws/install/gazebo_dev/share/ament_index/resource_index/package_run_dependencies/gazebo_dev
+[0.349s] -- Symlinking: /home/ravi/pmb2_foxy_ws/install/gazebo_dev/share/ament_index/resource_index/parent_prefix_path/gazebo_dev
+[0.358s] -- Symlinking: /home/ravi/pmb2_foxy_ws/install/gazebo_dev/share/gazebo_dev/environment/ament_prefix_path.sh
+[0.367s] -- Symlinking: /home/ravi/pmb2_foxy_ws/install/gazebo_dev/share/gazebo_dev/environment/ament_prefix_path.dsv
+[0.376s] -- Symlinking: /home/ravi/pmb2_foxy_ws/install/gazebo_dev/share/gazebo_dev/environment/path.sh
+[0.386s] -- Symlinking: /home/ravi/pmb2_foxy_ws/install/gazebo_dev/share/gazebo_dev/environment/path.dsv
+[0.392s] -- Symlinking: /home/ravi/pmb2_foxy_ws/install/gazebo_dev/share/gazebo_dev/local_setup.bash
+[0.398s] -- Symlinking: /home/ravi/pmb2_foxy_ws/install/gazebo_dev/share/gazebo_dev/local_setup.sh
+[0.404s] -- Symlinking: /home/ravi/pmb2_foxy_ws/install/gazebo_dev/share/gazebo_dev/local_setup.zsh
+[0.412s] -- Symlinking: /home/ravi/pmb2_foxy_ws/install/gazebo_dev/share/gazebo_dev/local_setup.dsv
+[0.420s] -- Symlinking: /home/ravi/pmb2_foxy_ws/install/gazebo_dev/share/gazebo_dev/package.dsv
+[0.429s] -- Symlinking: /home/ravi/pmb2_foxy_ws/install/gazebo_dev/share/ament_index/resource_index/packages/gazebo_dev
+[0.439s] -- Symlinking: /home/ravi/pmb2_foxy_ws/install/gazebo_dev/share/gazebo_dev/cmake/gazebo_dev-extras.cmake
+[0.448s] -- Symlinking: /home/ravi/pmb2_foxy_ws/install/gazebo_dev/share/gazebo_dev/cmake/gazebo_devConfig.cmake
+[0.457s] -- Symlinking: /home/ravi/pmb2_foxy_ws/install/gazebo_dev/share/gazebo_dev/cmake/gazebo_devConfig-version.cmake
+[0.464s] -- Symlinking: /home/ravi/pmb2_foxy_ws/install/gazebo_dev/share/gazebo_dev/package.xml
+[0.473s] Invoked command in '/home/ravi/pmb2_foxy_ws/build/gazebo_dev' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ravi/pmb2_foxy_ws/install/launch_pal:/opt/ros/foxy /usr/bin/cmake --install /home/ravi/pmb2_foxy_ws/build/gazebo_dev

@@ -1,0 +1,17 @@
+[0.614s] Invoking command in '/home/ravi/pmb2_foxy_ws/build/mouse_teleop': PYTHONPATH=/home/ravi/pmb2_foxy_ws/install/mouse_teleop/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/ravi/pmb2_foxy_ws/install/mouse_teleop --editable --build-directory /home/ravi/pmb2_foxy_ws/build/mouse_teleop/build --no-deps install_data --install-dir /home/ravi/pmb2_foxy_ws/install/mouse_teleop
+[0.849s] running develop
+[0.926s] running egg_info
+[0.926s] writing mouse_teleop.egg-info/PKG-INFO
+[0.927s] writing dependency_links to mouse_teleop.egg-info/dependency_links.txt
+[0.927s] writing entry points to mouse_teleop.egg-info/entry_points.txt
+[0.927s] writing requirements to mouse_teleop.egg-info/requires.txt
+[0.927s] writing top-level names to mouse_teleop.egg-info/top_level.txt
+[0.950s] reading manifest file 'mouse_teleop.egg-info/SOURCES.txt'
+[0.950s] writing manifest file 'mouse_teleop.egg-info/SOURCES.txt'
+[0.974s] running build_ext
+[0.974s] Creating /home/ravi/pmb2_foxy_ws/install/mouse_teleop/lib/python3.8/site-packages/mouse-teleop.egg-link (link to .)
+[0.975s] Installing mouse_teleop script to /home/ravi/pmb2_foxy_ws/install/mouse_teleop/lib/mouse_teleop
+[0.975s] 
+[0.975s] Installed /home/ravi/pmb2_foxy_ws/build/mouse_teleop
+[0.975s] running install_data
+[0.995s] Invoked command in '/home/ravi/pmb2_foxy_ws/build/mouse_teleop' returned '0': PYTHONPATH=/home/ravi/pmb2_foxy_ws/install/mouse_teleop/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/ravi/pmb2_foxy_ws/install/mouse_teleop --editable --build-directory /home/ravi/pmb2_foxy_ws/build/mouse_teleop/build --no-deps install_data --install-dir /home/ravi/pmb2_foxy_ws/install/mouse_teleop

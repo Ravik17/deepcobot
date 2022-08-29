@@ -1,0 +1,4 @@
+Invoking command in '/home/ravi/pmb2_foxy_ws/build/gazebo_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ravi/pmb2_foxy_ws/install/launch_pal:/opt/ros/foxy /usr/bin/cmake --build /home/ravi/pmb2_foxy_ws/build/gazebo_msgs -- -j8 -l8
+Invoked command in '/home/ravi/pmb2_foxy_ws/build/gazebo_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ravi/pmb2_foxy_ws/install/launch_pal:/opt/ros/foxy /usr/bin/cmake --build /home/ravi/pmb2_foxy_ws/build/gazebo_msgs -- -j8 -l8
+Invoking command in '/home/ravi/pmb2_foxy_ws/build/gazebo_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ravi/pmb2_foxy_ws/install/launch_pal:/opt/ros/foxy /usr/bin/cmake --install /home/ravi/pmb2_foxy_ws/build/gazebo_msgs
+Invoked command in '/home/ravi/pmb2_foxy_ws/build/gazebo_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ravi/pmb2_foxy_ws/install/launch_pal:/opt/ros/foxy /usr/bin/cmake --install /home/ravi/pmb2_foxy_ws/build/gazebo_msgs

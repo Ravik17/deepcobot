@@ -1,0 +1,16 @@
+[0.026s] Invoking command in '/home/ravi/pmb2_foxy_ws/build/gazebo_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ravi/pmb2_foxy_ws/install/launch_pal:/opt/ros/foxy /usr/bin/cmake --build /home/ravi/pmb2_foxy_ws/build/gazebo_msgs -- -j8 -l8
+[0.100s] [  0%] Built target gazebo_msgs__cpp
+[0.104s] [ 12%] Built target gazebo_msgs__rosidl_generator_c
+[0.137s] [ 24%] Built target gazebo_msgs__rosidl_typesupport_cpp
+[0.140s] [ 37%] Built target gazebo_msgs__rosidl_typesupport_c
+[0.149s] [ 62%] Built target gazebo_msgs__rosidl_typesupport_introspection_c
+[0.150s] [ 63%] Built target gazebo_msgs__rosidl_typesupport_introspection_cpp
+[0.152s] [ 75%] Built target gazebo_msgs__rosidl_typesupport_fastrtps_cpp
+[0.193s] [ 88%] Built target gazebo_msgs__rosidl_typesupport_fastrtps_c
+[0.210s] [ 88%] Built target gazebo_msgs
+[0.226s] [ 88%] Built target gazebo_msgs__py
+[0.269s] [100%] Built target gazebo_msgs__python
+[0.293s] [100%] Built target gazebo_msgs__rosidl_typesupport_c__pyext
+[0.294s] [100%] Built target gazebo_msgs__rosidl_typesupport_introspection_c__pyext
+[0.297s] [100%] Built target gazebo_msgs__rosidl_typesupport_fastrtps_c__pyext
+[0.319s] Invoked command in '/home/ravi/pmb2_foxy_ws/build/gazebo_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ravi/pmb2_foxy_ws/install/launch_pal:/opt/ros/foxy /usr/bin/cmake --build /home/ravi/pmb2_foxy_ws/build/gazebo_msgs -- -j8 -l8

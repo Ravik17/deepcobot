@@ -1,0 +1,188 @@
+[0.010s] Invoking command in '/home/ravi/pmb2_foxy_ws/build/gazebo_ros': CMAKE_PREFIX_PATH=/home/ravi/pmb2_foxy_ws/install/gazebo_msgs:/home/ravi/pmb2_foxy_ws/install/gazebo_dev:/home/ravi/pmb2_foxy_ws/install/gazebo_ros_pkgs:/home/ravi/pmb2_foxy_ws/install/gazebo_plugins:/home/ravi/pmb2_foxy_ws/install/gazebo_ros:/home/ravi/pmb2_foxy_ws/install/pal_gazebo_worlds:/home/ravi/pmb2_foxy_ws/install/pmb2_simulation:/home/ravi/pmb2_foxy_ws/install/pmb2_navigation:/home/ravi/pmb2_foxy_ws/install/pmb2_2dnav_gazebo:/home/ravi/pmb2_foxy_ws/install/pmb2_2dnav:/home/ravi/pmb2_foxy_ws/install/pmb2_maps:/home/ravi/pmb2_foxy_ws/install/pmb2_gazebo:/home/ravi/pmb2_foxy_ws/install/pmb2_robot:/home/ravi/pmb2_foxy_ws/install/pmb2_bringup:/home/ravi/pmb2_foxy_ws/install/pmb2_description:/home/ravi/pmb2_foxy_ws/install/pmb2_controller_configuration:/home/ravi/pmb2_foxy_ws/install/launch_pal:/opt/ros/foxy LD_LIBRARY_PATH=/home/ravi/pmb2_foxy_ws/install/gazebo_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/home/ravi/pmb2_foxy_ws/install/gazebo_plugins/lib:/home/ravi/pmb2_foxy_ws/install/gazebo_ros/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/ravi/pmb2_foxy_ws/install/gazebo_msgs/lib/python3.8/site-packages:/home/ravi/pmb2_foxy_ws/install/gazebo_ros/lib/python3.8/site-packages:/home/ravi/pmb2_foxy_ws/build/launch_pal:/home/ravi/pmb2_foxy_ws/install/launch_pal/lib/python3.8/site-packages:/home/ravi/pmb2_foxy_ws/install/pmb2_description/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake /home/ravi/pmb2_foxy_ws/src/gazebo_ros_pkgs/gazebo_ros -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ravi/pmb2_foxy_ws/install/gazebo_ros
+[0.021s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.041s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.041s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.144s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.148s] -- Found builtin_interfaces: 1.0.0 (/opt/ros/foxy/share/builtin_interfaces/cmake)
+[0.160s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.162s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.233s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.247s] -- Found gazebo_dev: 3.5.3 (/home/ravi/pmb2_foxy_ws/install/gazebo_dev/share/gazebo_dev/cmake)
+[0.274s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[0.291s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-pthread (found version "3.6.1") 
+[0.292s] -- Looking for ignition-math6 -- found version 6.12.0
+[0.295s] -- Searching for dependencies of ignition-math6
+[0.296s] -- Looking for OGRE...
+[0.300s] -- Found Ogre Ghadamon (1.9.0)
+[0.300s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[0.306s] -- Looking for OGRE_Paging...
+[0.306s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[0.306s] -- Looking for OGRE_Terrain...
+[0.306s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[0.306s] -- Looking for OGRE_Property...
+[0.307s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[0.307s] -- Looking for OGRE_RTShaderSystem...
+[0.307s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[0.307s] -- Looking for OGRE_Volume...
+[0.307s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[0.307s] -- Looking for OGRE_Overlay...
+[0.307s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[0.386s] -- Looking for ignition-math6 -- found version 6.12.0
+[0.387s] -- Looking for ignition-transport8 -- found version 8.3.0
+[0.387s] -- Searching for dependencies of ignition-transport8
+[0.398s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-pthread (found suitable version "3.6.1", minimum required is "3") 
+[0.405s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[0.407s] -- Checking for module 'libzmq >= 4'
+[0.417s] --   Found libzmq , version 4.3.2
+[0.440s] -- Checking for module 'uuid'
+[0.450s] --   Found uuid, version 2.34.0
+[0.471s] -- Looking for ignition-msgs5 -- found version 5.10.0
+[0.471s] -- Searching for dependencies of ignition-msgs5
+[0.484s] -- Looking for ignition-math6 -- found version 6.12.0
+[0.486s] -- Checking for module 'tinyxml2'
+[0.496s] --   Found tinyxml2, version 6.2.0
+[0.517s] -- Looking for ignition-msgs5 -- found version 5.10.0
+[0.517s] -- Looking for ignition-common3 -- found version 3.14.2
+[0.517s] -- Searching for dependencies of ignition-common3
+[0.518s] -- Looking for dlfcn.h - found
+[0.518s] -- Looking for libdl - found
+[0.524s] -- Searching for <ignition-common3> component [graphics]
+[0.524s] -- Looking for ignition-common3-graphics -- found version 3.14.2
+[0.525s] -- Searching for dependencies of ignition-common3-graphics
+[0.525s] -- Looking for ignition-math6 -- found version 6.12.0
+[0.526s] -- Looking for ignition-fuel_tools4 -- found version 4.6.0
+[0.526s] -- Searching for dependencies of ignition-fuel_tools4
+[0.544s] -- Checking for module 'jsoncpp'
+[0.553s] --   Found jsoncpp, version 1.7.4
+[0.577s] -- Checking for module 'libzip'
+[0.586s] --   Found libzip, version 1.5.1
+[0.607s] -- Looking for ignition-common3 -- found version 3.14.2
+[0.607s] -- Looking for ignition-math6 -- found version 6.12.0
+[0.607s] -- Looking for ignition-msgs5 -- found version 5.10.0
+[0.608s] -- Gazebo version: 11.11
+[0.608s] -- Found gazebo_msgs: 3.5.3 (/home/ravi/pmb2_foxy_ws/install/gazebo_msgs/share/gazebo_msgs/cmake)
+[0.759s] -- Found rcl: 1.1.13 (/opt/ros/foxy/share/rcl/cmake)
+[0.774s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.775s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.784s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.857s] -- Found std_srvs: 2.0.5 (/opt/ros/foxy/share/std_srvs/cmake)
+[0.862s] -- Found tinyxml_vendor: 0.8.2 (/opt/ros/foxy/share/tinyxml_vendor/cmake)
+[0.905s] -- Found ament_cmake_gtest: 0.9.9 (/opt/ros/foxy/share/ament_cmake_gtest/cmake)
+[0.905s] -- Found launch_testing_ament_cmake: 0.10.8 (/opt/ros/foxy/share/launch_testing_ament_cmake/cmake)
+[0.906s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[0.922s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[0.923s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.923s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[0.923s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[0.924s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[0.993s] -- Found gtest sources under '/opt/ros/foxy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[1.087s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.126s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[1.144s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.144s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[1.144s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[1.195s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.196s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.197s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/ravi/pmb2_foxy_ws/src/gazebo_ros_pkgs/gazebo_ros/include>
+[1.197s] -- Configured cppcheck exclude dirs and/or files: 
+[1.198s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.198s] -- Configured cpplint exclude dirs and/or files: 
+[1.199s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.199s] -- Added test 'lint_cmake' to check CMake code style
+[1.199s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[1.201s] -- Added test 'uncrustify' to check C / C++ code style
+[1.201s] -- Configured uncrustify additional arguments: 
+[1.201s] -- Added test 'xmllint' to check XML markup files
+[1.204s] -- Configuring done
+[1.391s] -- Generating done
+[1.394s] -- Build files have been written to: /home/ravi/pmb2_foxy_ws/build/gazebo_ros
+[1.403s] Invoked command in '/home/ravi/pmb2_foxy_ws/build/gazebo_ros' returned '0': CMAKE_PREFIX_PATH=/home/ravi/pmb2_foxy_ws/install/gazebo_msgs:/home/ravi/pmb2_foxy_ws/install/gazebo_dev:/home/ravi/pmb2_foxy_ws/install/gazebo_ros_pkgs:/home/ravi/pmb2_foxy_ws/install/gazebo_plugins:/home/ravi/pmb2_foxy_ws/install/gazebo_ros:/home/ravi/pmb2_foxy_ws/install/pal_gazebo_worlds:/home/ravi/pmb2_foxy_ws/install/pmb2_simulation:/home/ravi/pmb2_foxy_ws/install/pmb2_navigation:/home/ravi/pmb2_foxy_ws/install/pmb2_2dnav_gazebo:/home/ravi/pmb2_foxy_ws/install/pmb2_2dnav:/home/ravi/pmb2_foxy_ws/install/pmb2_maps:/home/ravi/pmb2_foxy_ws/install/pmb2_gazebo:/home/ravi/pmb2_foxy_ws/install/pmb2_robot:/home/ravi/pmb2_foxy_ws/install/pmb2_bringup:/home/ravi/pmb2_foxy_ws/install/pmb2_description:/home/ravi/pmb2_foxy_ws/install/pmb2_controller_configuration:/home/ravi/pmb2_foxy_ws/install/launch_pal:/opt/ros/foxy LD_LIBRARY_PATH=/home/ravi/pmb2_foxy_ws/install/gazebo_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/home/ravi/pmb2_foxy_ws/install/gazebo_plugins/lib:/home/ravi/pmb2_foxy_ws/install/gazebo_ros/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/ravi/pmb2_foxy_ws/install/gazebo_msgs/lib/python3.8/site-packages:/home/ravi/pmb2_foxy_ws/install/gazebo_ros/lib/python3.8/site-packages:/home/ravi/pmb2_foxy_ws/build/launch_pal:/home/ravi/pmb2_foxy_ws/install/launch_pal/lib/python3.8/site-packages:/home/ravi/pmb2_foxy_ws/install/pmb2_description/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake /home/ravi/pmb2_foxy_ws/src/gazebo_ros_pkgs/gazebo_ros -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ravi/pmb2_foxy_ws/install/gazebo_ros
+[1.405s] Invoking command in '/home/ravi/pmb2_foxy_ws/build/gazebo_ros': CMAKE_PREFIX_PATH=/home/ravi/pmb2_foxy_ws/install/gazebo_msgs:/home/ravi/pmb2_foxy_ws/install/gazebo_dev:/home/ravi/pmb2_foxy_ws/install/gazebo_ros_pkgs:/home/ravi/pmb2_foxy_ws/install/gazebo_plugins:/home/ravi/pmb2_foxy_ws/install/gazebo_ros:/home/ravi/pmb2_foxy_ws/install/pal_gazebo_worlds:/home/ravi/pmb2_foxy_ws/install/pmb2_simulation:/home/ravi/pmb2_foxy_ws/install/pmb2_navigation:/home/ravi/pmb2_foxy_ws/install/pmb2_2dnav_gazebo:/home/ravi/pmb2_foxy_ws/install/pmb2_2dnav:/home/ravi/pmb2_foxy_ws/install/pmb2_maps:/home/ravi/pmb2_foxy_ws/install/pmb2_gazebo:/home/ravi/pmb2_foxy_ws/install/pmb2_robot:/home/ravi/pmb2_foxy_ws/install/pmb2_bringup:/home/ravi/pmb2_foxy_ws/install/pmb2_description:/home/ravi/pmb2_foxy_ws/install/pmb2_controller_configuration:/home/ravi/pmb2_foxy_ws/install/launch_pal:/opt/ros/foxy LD_LIBRARY_PATH=/home/ravi/pmb2_foxy_ws/install/gazebo_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/home/ravi/pmb2_foxy_ws/install/gazebo_plugins/lib:/home/ravi/pmb2_foxy_ws/install/gazebo_ros/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/ravi/pmb2_foxy_ws/install/gazebo_msgs/lib/python3.8/site-packages:/home/ravi/pmb2_foxy_ws/install/gazebo_ros/lib/python3.8/site-packages:/home/ravi/pmb2_foxy_ws/build/launch_pal:/home/ravi/pmb2_foxy_ws/install/launch_pal/lib/python3.8/site-packages:/home/ravi/pmb2_foxy_ws/install/pmb2_description/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --build /home/ravi/pmb2_foxy_ws/build/gazebo_ros -- -j8 -l8
+[1.441s] [  3%] Built target gtest
+[1.442s] [  7%] Built target gtest_main
+[1.450s] [ 10%] Built target gazebo_ros_utils
+[1.452s] [ 14%] Built target mock_robot_state_publisher
+[1.452s] [ 21%] Built target gazebo_ros_node
+[1.482s] [ 25%] Built target test_qos
+[1.483s] [ 28%] Built target test_sim_time
+[1.487s] [ 32%] Built target test_utils
+[1.493s] [ 39%] Built target gazebo_ros_force_system
+[1.494s] [ 39%] Built target gazebo_ros_init
+[1.495s] [ 42%] Built target gazebo_ros_factory
+[1.495s] [ 46%] Built target gazebo_ros_state
+[1.496s] [ 50%] Built target gazebo_ros_properties
+[1.514s] [ 53%] Built target test_plugins
+[1.514s] [ 57%] Built target args_init
+[1.525s] [ 64%] Built target multiple_nodes
+[1.526s] [ 64%] Built target create_node_without_init
+[1.526s] [ 67%] Built target ros_world_plugin
+[1.528s] [ 71%] Built target sdf_node
+[1.537s] [ 75%] Built target test_gazebo_ros_properties
+[1.539s] [ 78%] Built target test_gazebo_ros_init
+[1.542s] [ 82%] Built target test_conversions
+[1.553s] [ 85%] Built target test_gazebo_ros_state
+[1.559s] [ 89%] Built target test_node
+[1.565s] [ 92%] Built target test_gazebo_ros_joint_effort
+[1.568s] [100%] Built target test_gazebo_ros_factory
+[1.568s] [100%] Built target test_gazebo_ros_link_wrench
+[1.575s] Invoked command in '/home/ravi/pmb2_foxy_ws/build/gazebo_ros' returned '0': CMAKE_PREFIX_PATH=/home/ravi/pmb2_foxy_ws/install/gazebo_msgs:/home/ravi/pmb2_foxy_ws/install/gazebo_dev:/home/ravi/pmb2_foxy_ws/install/gazebo_ros_pkgs:/home/ravi/pmb2_foxy_ws/install/gazebo_plugins:/home/ravi/pmb2_foxy_ws/install/gazebo_ros:/home/ravi/pmb2_foxy_ws/install/pal_gazebo_worlds:/home/ravi/pmb2_foxy_ws/install/pmb2_simulation:/home/ravi/pmb2_foxy_ws/install/pmb2_navigation:/home/ravi/pmb2_foxy_ws/install/pmb2_2dnav_gazebo:/home/ravi/pmb2_foxy_ws/install/pmb2_2dnav:/home/ravi/pmb2_foxy_ws/install/pmb2_maps:/home/ravi/pmb2_foxy_ws/install/pmb2_gazebo:/home/ravi/pmb2_foxy_ws/install/pmb2_robot:/home/ravi/pmb2_foxy_ws/install/pmb2_bringup:/home/ravi/pmb2_foxy_ws/install/pmb2_description:/home/ravi/pmb2_foxy_ws/install/pmb2_controller_configuration:/home/ravi/pmb2_foxy_ws/install/launch_pal:/opt/ros/foxy LD_LIBRARY_PATH=/home/ravi/pmb2_foxy_ws/install/gazebo_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/home/ravi/pmb2_foxy_ws/install/gazebo_plugins/lib:/home/ravi/pmb2_foxy_ws/install/gazebo_ros/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/ravi/pmb2_foxy_ws/install/gazebo_msgs/lib/python3.8/site-packages:/home/ravi/pmb2_foxy_ws/install/gazebo_ros/lib/python3.8/site-packages:/home/ravi/pmb2_foxy_ws/build/launch_pal:/home/ravi/pmb2_foxy_ws/install/launch_pal/lib/python3.8/site-packages:/home/ravi/pmb2_foxy_ws/install/pmb2_description/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --build /home/ravi/pmb2_foxy_ws/build/gazebo_ros -- -j8 -l8
+[1.613s] Invoking command in '/home/ravi/pmb2_foxy_ws/build/gazebo_ros': CMAKE_PREFIX_PATH=/home/ravi/pmb2_foxy_ws/install/gazebo_msgs:/home/ravi/pmb2_foxy_ws/install/gazebo_dev:/home/ravi/pmb2_foxy_ws/install/gazebo_ros_pkgs:/home/ravi/pmb2_foxy_ws/install/gazebo_plugins:/home/ravi/pmb2_foxy_ws/install/gazebo_ros:/home/ravi/pmb2_foxy_ws/install/pal_gazebo_worlds:/home/ravi/pmb2_foxy_ws/install/pmb2_simulation:/home/ravi/pmb2_foxy_ws/install/pmb2_navigation:/home/ravi/pmb2_foxy_ws/install/pmb2_2dnav_gazebo:/home/ravi/pmb2_foxy_ws/install/pmb2_2dnav:/home/ravi/pmb2_foxy_ws/install/pmb2_maps:/home/ravi/pmb2_foxy_ws/install/pmb2_gazebo:/home/ravi/pmb2_foxy_ws/install/pmb2_robot:/home/ravi/pmb2_foxy_ws/install/pmb2_bringup:/home/ravi/pmb2_foxy_ws/install/pmb2_description:/home/ravi/pmb2_foxy_ws/install/pmb2_controller_configuration:/home/ravi/pmb2_foxy_ws/install/launch_pal:/opt/ros/foxy LD_LIBRARY_PATH=/home/ravi/pmb2_foxy_ws/install/gazebo_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/home/ravi/pmb2_foxy_ws/install/gazebo_plugins/lib:/home/ravi/pmb2_foxy_ws/install/gazebo_ros/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/ravi/pmb2_foxy_ws/install/gazebo_msgs/lib/python3.8/site-packages:/home/ravi/pmb2_foxy_ws/install/gazebo_ros/lib/python3.8/site-packages:/home/ravi/pmb2_foxy_ws/build/launch_pal:/home/ravi/pmb2_foxy_ws/install/launch_pal/lib/python3.8/site-packages:/home/ravi/pmb2_foxy_ws/install/pmb2_description/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --install /home/ravi/pmb2_foxy_ws/build/gazebo_ros
+[1.619s] -- Install configuration: ""
+[1.619s] -- Execute custom install script
+[1.619s] -- Up-to-date symlink: /home/ravi/pmb2_foxy_ws/install/gazebo_ros/share/gazebo_ros/environment/pythonpath.sh
+[1.619s] -- Up-to-date symlink: /home/ravi/pmb2_foxy_ws/install/gazebo_ros/share/gazebo_ros/environment/pythonpath.dsv
+[1.620s] -- Up-to-date symlink: /home/ravi/pmb2_foxy_ws/install/gazebo_ros/lib/python3.8/site-packages/scripts//__init__.py
+[1.620s] -- Up-to-date symlink: /home/ravi/pmb2_foxy_ws/install/gazebo_ros/lib/python3.8/site-packages/scripts//gazebo_ros_paths.py
+[1.620s] -- Up-to-date symlink: /home/ravi/pmb2_foxy_ws/install/gazebo_ros/lib/python3.8/site-packages/scripts//spawn_entity.py
+[1.620s] -- Up-to-date symlink: /home/ravi/pmb2_foxy_ws/install/gazebo_ros/share/gazebo_ros/environment/library_path.sh
+[1.620s] -- Up-to-date symlink: /home/ravi/pmb2_foxy_ws/install/gazebo_ros/share/gazebo_ros/environment/library_path.dsv
+[1.620s] -- Up-to-date symlink: /home/ravi/pmb2_foxy_ws/install/gazebo_ros/share/ament_index/resource_index/package_run_dependencies/gazebo_ros
+[1.620s] -- Up-to-date symlink: /home/ravi/pmb2_foxy_ws/install/gazebo_ros/share/ament_index/resource_index/parent_prefix_path/gazebo_ros
+[1.620s] -- Up-to-date symlink: /home/ravi/pmb2_foxy_ws/install/gazebo_ros/share/gazebo_ros/environment/ament_prefix_path.sh
+[1.621s] -- Up-to-date symlink: /home/ravi/pmb2_foxy_ws/install/gazebo_ros/share/gazebo_ros/environment/ament_prefix_path.dsv
+[1.621s] -- Up-to-date symlink: /home/ravi/pmb2_foxy_ws/install/gazebo_ros/share/gazebo_ros/environment/path.sh
+[1.621s] -- Up-to-date symlink: /home/ravi/pmb2_foxy_ws/install/gazebo_ros/share/gazebo_ros/environment/path.dsv
+[1.621s] -- Up-to-date symlink: /home/ravi/pmb2_foxy_ws/install/gazebo_ros/share/gazebo_ros/local_setup.bash
+[1.621s] -- Up-to-date symlink: /home/ravi/pmb2_foxy_ws/install/gazebo_ros/share/gazebo_ros/local_setup.sh
+[1.621s] -- Up-to-date symlink: /home/ravi/pmb2_foxy_ws/install/gazebo_ros/share/gazebo_ros/local_setup.zsh
+[1.622s] -- Up-to-date symlink: /home/ravi/pmb2_foxy_ws/install/gazebo_ros/share/gazebo_ros/local_setup.dsv
+[1.622s] -- Symlinking: /home/ravi/pmb2_foxy_ws/install/gazebo_ros/share/gazebo_ros/package.dsv
+[1.628s] -- Up-to-date symlink: /home/ravi/pmb2_foxy_ws/install/gazebo_ros/share/ament_index/resource_index/packages/gazebo_ros
+[1.628s] -- Up-to-date symlink: /home/ravi/pmb2_foxy_ws/install/gazebo_ros/share/gazebo_ros/cmake/ament_cmake_export_libraries-extras.cmake
+[1.628s] -- Up-to-date symlink: /home/ravi/pmb2_foxy_ws/install/gazebo_ros/share/gazebo_ros/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.628s] -- Up-to-date symlink: /home/ravi/pmb2_foxy_ws/install/gazebo_ros/share/gazebo_ros/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.628s] -- Up-to-date symlink: /home/ravi/pmb2_foxy_ws/install/gazebo_ros/share/gazebo_ros/cmake/gazebo_rosConfig.cmake
+[1.628s] -- Up-to-date symlink: /home/ravi/pmb2_foxy_ws/install/gazebo_ros/share/gazebo_ros/cmake/gazebo_rosConfig-version.cmake
+[1.628s] -- Up-to-date symlink: /home/ravi/pmb2_foxy_ws/install/gazebo_ros/share/gazebo_ros/package.xml
+[1.629s] -- Up-to-date symlink: /home/ravi/pmb2_foxy_ws/install/gazebo_ros/include/gazebo_ros/conversions/builtin_interfaces.hpp
+[1.629s] -- Up-to-date symlink: /home/ravi/pmb2_foxy_ws/install/gazebo_ros/include/gazebo_ros/conversions/gazebo_msgs.hpp
+[1.629s] -- Up-to-date symlink: /home/ravi/pmb2_foxy_ws/install/gazebo_ros/include/gazebo_ros/conversions/generic.hpp
+[1.629s] -- Up-to-date symlink: /home/ravi/pmb2_foxy_ws/install/gazebo_ros/include/gazebo_ros/conversions/geometry_msgs.hpp
+[1.629s] -- Up-to-date symlink: /home/ravi/pmb2_foxy_ws/install/gazebo_ros/include/gazebo_ros/conversions/sensor_msgs.hpp
+[1.629s] -- Up-to-date symlink: /home/ravi/pmb2_foxy_ws/install/gazebo_ros/include/gazebo_ros/executor.hpp
+[1.630s] -- Up-to-date symlink: /home/ravi/pmb2_foxy_ws/install/gazebo_ros/include/gazebo_ros/gazebo_ros_factory.hpp
+[1.630s] -- Up-to-date symlink: /home/ravi/pmb2_foxy_ws/install/gazebo_ros/include/gazebo_ros/gazebo_ros_force_system.hpp
+[1.630s] -- Up-to-date symlink: /home/ravi/pmb2_foxy_ws/install/gazebo_ros/include/gazebo_ros/gazebo_ros_init.hpp
+[1.630s] -- Up-to-date symlink: /home/ravi/pmb2_foxy_ws/install/gazebo_ros/include/gazebo_ros/gazebo_ros_properties.hpp
+[1.630s] -- Up-to-date symlink: /home/ravi/pmb2_foxy_ws/install/gazebo_ros/include/gazebo_ros/gazebo_ros_state.hpp
+[1.630s] -- Up-to-date symlink: /home/ravi/pmb2_foxy_ws/install/gazebo_ros/include/gazebo_ros/node.hpp
+[1.630s] -- Up-to-date symlink: /home/ravi/pmb2_foxy_ws/install/gazebo_ros/include/gazebo_ros/node_visibility_control.h
+[1.630s] -- Up-to-date symlink: /home/ravi/pmb2_foxy_ws/install/gazebo_ros/include/gazebo_ros/qos.hpp
+[1.630s] -- Up-to-date symlink: /home/ravi/pmb2_foxy_ws/install/gazebo_ros/include/gazebo_ros/testing_utils.hpp
+[1.630s] -- Up-to-date symlink: /home/ravi/pmb2_foxy_ws/install/gazebo_ros/include/gazebo_ros/utils.hpp
+[1.631s] -- Up-to-date symlink: /home/ravi/pmb2_foxy_ws/install/gazebo_ros/include/gazebo_ros/utils_visibility_control.h
+[1.631s] -- Up-to-date symlink: /home/ravi/pmb2_foxy_ws/install/gazebo_ros/lib/gazebo_ros//gazebo_ros_paths.py
+[1.631s] -- Up-to-date symlink: /home/ravi/pmb2_foxy_ws/install/gazebo_ros/lib/libgazebo_ros_factory.so
+[1.631s] -- Up-to-date symlink: /home/ravi/pmb2_foxy_ws/install/gazebo_ros/lib/libgazebo_ros_force_system.so
+[1.631s] -- Up-to-date symlink: /home/ravi/pmb2_foxy_ws/install/gazebo_ros/lib/libgazebo_ros_init.so
+[1.631s] -- Up-to-date symlink: /home/ravi/pmb2_foxy_ws/install/gazebo_ros/lib/libgazebo_ros_node.so
+[1.631s] -- Up-to-date symlink: /home/ravi/pmb2_foxy_ws/install/gazebo_ros/lib/libgazebo_ros_properties.so
+[1.631s] -- Up-to-date symlink: /home/ravi/pmb2_foxy_ws/install/gazebo_ros/lib/libgazebo_ros_state.so
+[1.632s] -- Up-to-date symlink: /home/ravi/pmb2_foxy_ws/install/gazebo_ros/lib/libgazebo_ros_utils.so
+[1.632s] -- Up-to-date symlink: /home/ravi/pmb2_foxy_ws/install/gazebo_ros/lib/gazebo_ros//spawn_entity.py
+[1.632s] -- Up-to-date symlink: /home/ravi/pmb2_foxy_ws/install/gazebo_ros/share/gazebo_ros//launch/gazebo.launch.py
+[1.632s] -- Up-to-date symlink: /home/ravi/pmb2_foxy_ws/install/gazebo_ros/share/gazebo_ros//launch/gzclient.launch.py
+[1.632s] -- Up-to-date symlink: /home/ravi/pmb2_foxy_ws/install/gazebo_ros/share/gazebo_ros//launch/gzserver.launch.py
+[1.632s] -- Up-to-date symlink: /home/ravi/pmb2_foxy_ws/install/gazebo_ros/share/gazebo_ros//launch/spawn_entity_demo.launch.py
+[1.651s] Listing '/home/ravi/pmb2_foxy_ws/install/gazebo_ros/lib/python3.8/site-packages/scripts/'...
+[1.657s] Invoked command in '/home/ravi/pmb2_foxy_ws/build/gazebo_ros' returned '0': CMAKE_PREFIX_PATH=/home/ravi/pmb2_foxy_ws/install/gazebo_msgs:/home/ravi/pmb2_foxy_ws/install/gazebo_dev:/home/ravi/pmb2_foxy_ws/install/gazebo_ros_pkgs:/home/ravi/pmb2_foxy_ws/install/gazebo_plugins:/home/ravi/pmb2_foxy_ws/install/gazebo_ros:/home/ravi/pmb2_foxy_ws/install/pal_gazebo_worlds:/home/ravi/pmb2_foxy_ws/install/pmb2_simulation:/home/ravi/pmb2_foxy_ws/install/pmb2_navigation:/home/ravi/pmb2_foxy_ws/install/pmb2_2dnav_gazebo:/home/ravi/pmb2_foxy_ws/install/pmb2_2dnav:/home/ravi/pmb2_foxy_ws/install/pmb2_maps:/home/ravi/pmb2_foxy_ws/install/pmb2_gazebo:/home/ravi/pmb2_foxy_ws/install/pmb2_robot:/home/ravi/pmb2_foxy_ws/install/pmb2_bringup:/home/ravi/pmb2_foxy_ws/install/pmb2_description:/home/ravi/pmb2_foxy_ws/install/pmb2_controller_configuration:/home/ravi/pmb2_foxy_ws/install/launch_pal:/opt/ros/foxy LD_LIBRARY_PATH=/home/ravi/pmb2_foxy_ws/install/gazebo_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/home/ravi/pmb2_foxy_ws/install/gazebo_plugins/lib:/home/ravi/pmb2_foxy_ws/install/gazebo_ros/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/ravi/pmb2_foxy_ws/install/gazebo_msgs/lib/python3.8/site-packages:/home/ravi/pmb2_foxy_ws/install/gazebo_ros/lib/python3.8/site-packages:/home/ravi/pmb2_foxy_ws/build/launch_pal:/home/ravi/pmb2_foxy_ws/install/launch_pal/lib/python3.8/site-packages:/home/ravi/pmb2_foxy_ws/install/pmb2_description/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --install /home/ravi/pmb2_foxy_ws/build/gazebo_ros

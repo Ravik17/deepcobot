@@ -1,0 +1,2 @@
+[0.589s] Invoking command in '/home/ravi/pmb2_foxy_ws/build/launch_pal': PYTHONPATH=/home/ravi/pmb2_foxy_ws/install/launch_pal/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/ravi/pmb2_foxy_ws/install/launch_pal --uninstall --editable --build-directory /home/ravi/pmb2_foxy_ws/build/launch_pal/build
+[0.763s] running develop

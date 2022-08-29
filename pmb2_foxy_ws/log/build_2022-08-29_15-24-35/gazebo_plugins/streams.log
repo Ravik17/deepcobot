@@ -1,0 +1,405 @@
+[0.015s] Invoking command in '/home/ravi/pmb2_foxy_ws/build/gazebo_plugins': AMENT_PREFIX_PATH=/home/ravi/pmb2_foxy_ws/install/gazebo_ros:/home/ravi/pmb2_foxy_ws/install/gazebo_msgs:/home/ravi/pmb2_foxy_ws/install/gazebo_dev:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ravi/pmb2_foxy_ws/install/gazebo_ros:/home/ravi/pmb2_foxy_ws/install/gazebo_msgs:/home/ravi/pmb2_foxy_ws/install/gazebo_dev:/home/ravi/pmb2_foxy_ws/install/pal_gazebo_worlds:/home/ravi/pmb2_foxy_ws/install/pmb2_simulation:/home/ravi/pmb2_foxy_ws/install/pmb2_navigation:/home/ravi/pmb2_foxy_ws/install/pmb2_2dnav_gazebo:/home/ravi/pmb2_foxy_ws/install/pmb2_2dnav:/home/ravi/pmb2_foxy_ws/install/pmb2_maps:/home/ravi/pmb2_foxy_ws/install/pmb2_gazebo:/home/ravi/pmb2_foxy_ws/install/pmb2_robot:/home/ravi/pmb2_foxy_ws/install/pmb2_bringup:/home/ravi/pmb2_foxy_ws/install/pmb2_description:/home/ravi/pmb2_foxy_ws/install/pmb2_controller_configuration:/home/ravi/pmb2_foxy_ws/install/launch_pal:/opt/ros/foxy LD_LIBRARY_PATH=/home/ravi/pmb2_foxy_ws/install/gazebo_ros/lib:/home/ravi/pmb2_foxy_ws/install/gazebo_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ravi/pmb2_foxy_ws/install/gazebo_ros/lib/python3.8/site-packages:/home/ravi/pmb2_foxy_ws/install/gazebo_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/ravi/pmb2_foxy_ws/src/gazebo_ros_pkgs/gazebo_plugins -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ravi/pmb2_foxy_ws/install/gazebo_plugins
+[0.049s] -- The C compiler identification is GNU 9.4.0
+[0.087s] -- The CXX compiler identification is GNU 9.4.0
+[0.091s] -- Check for working C compiler: /usr/bin/cc
+[0.137s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.138s] -- Detecting C compiler ABI info
+[0.180s] -- Detecting C compiler ABI info - done
+[0.187s] -- Detecting C compile features
+[0.187s] -- Detecting C compile features - done
+[0.189s] -- Check for working CXX compiler: /usr/bin/c++
+[0.242s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.243s] -- Detecting CXX compiler ABI info
+[0.296s] -- Detecting CXX compiler ABI info - done
+[0.303s] -- Detecting CXX compile features
+[0.303s] -- Detecting CXX compile features - done
+[0.305s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.325s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.325s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.429s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.452s] -- Found camera_info_manager: 2.3.0 (/opt/ros/foxy/share/camera_info_manager/cmake)
+[0.491s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.496s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.543s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.562s] -- Found FastRTPS: /opt/ros/foxy/include  
+[0.613s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.651s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.652s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.653s] -- Looking for pthread.h
+[0.701s] -- Looking for pthread.h - found
+[0.701s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.764s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[0.764s] -- Looking for pthread_create in pthreads
+[0.832s] -- Looking for pthread_create in pthreads - not found
+[0.833s] -- Looking for pthread_create in pthread
+[0.914s] -- Looking for pthread_create in pthread - found
+[0.915s] -- Found Threads: TRUE  
+[1.100s] -- Setting yaml-cpp_DIR to: '/opt/ros/foxy/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/lib/cmake/yaml-cpp'
+[1.138s] -- Found gazebo_dev: 3.5.3 (/home/ravi/pmb2_foxy_ws/install/gazebo_dev/share/gazebo_dev/cmake)
+[1.142s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1") 
+[1.143s] -- Checking for module 'bullet>=2.82'
+[1.153s] --   Found bullet, version 2.88
+[1.221s] -- Found ccd: /usr/include (found suitable version "2.0", minimum required is "2.0") 
+[1.253s] -- Found fcl: /usr/include (found suitable version "0.5.0", minimum required is "0.3.2") 
+[1.286s] -- Found assimp: /usr/include (found version "5.0.0") 
+[1.302s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[1.320s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found suitable version "1.71.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+[1.338s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found version "3.6.1") 
+[1.341s] -- Looking for ignition-math6 -- found version 6.12.0
+[1.345s] -- Searching for dependencies of ignition-math6
+[1.346s] -- Looking for OGRE...
+[1.346s] -- OGRE_PREFIX_WATCH changed.
+[1.349s] -- Checking for module 'OGRE'
+[1.358s] --   Found OGRE, version 1.9.0
+[1.381s] -- Found Ogre Ghadamon (1.9.0)
+[1.386s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[1.392s] -- Looking for OGRE_Paging...
+[1.396s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[1.396s] -- Looking for OGRE_Terrain...
+[1.400s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[1.400s] -- Looking for OGRE_Property...
+[1.404s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[1.404s] -- Looking for OGRE_RTShaderSystem...
+[1.408s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[1.408s] -- Looking for OGRE_Volume...
+[1.412s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[1.412s] -- Looking for OGRE_Overlay...
+[1.416s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[1.500s] -- Looking for ignition-math6 -- found version 6.12.0
+[1.501s] -- Looking for ignition-transport8 -- found version 8.3.0
+[1.501s] -- Searching for dependencies of ignition-transport8
+[1.513s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found suitable version "3.6.1", minimum required is "3") 
+[1.520s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[1.523s] -- Checking for module 'libzmq >= 4'
+[1.532s] --   Found libzmq , version 4.3.2
+[1.555s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[1.558s] -- Checking for module 'uuid'
+[1.567s] --   Found uuid, version 2.34.0
+[1.589s] -- Found UUID: TRUE  
+[1.591s] -- Looking for ignition-msgs5 -- found version 5.10.0
+[1.591s] -- Searching for dependencies of ignition-msgs5
+[1.603s] -- Looking for ignition-math6 -- found version 6.12.0
+[1.606s] -- Checking for module 'tinyxml2'
+[1.615s] --   Found tinyxml2, version 6.2.0
+[1.637s] -- Looking for ignition-msgs5 -- found version 5.10.0
+[1.639s] -- Looking for ignition-common3 -- found version 3.14.2
+[1.639s] -- Searching for dependencies of ignition-common3
+[1.639s] -- Looking for dlfcn.h - found
+[1.640s] -- Looking for libdl - found
+[1.641s] -- Found DL: TRUE  
+[1.646s] -- Searching for <ignition-common3> component [graphics]
+[1.647s] -- Looking for ignition-common3-graphics -- found version 3.14.2
+[1.648s] -- Searching for dependencies of ignition-common3-graphics
+[1.648s] -- Looking for ignition-math6 -- found version 6.12.0
+[1.650s] -- Looking for ignition-fuel_tools4 -- found version 4.6.0
+[1.650s] -- Searching for dependencies of ignition-fuel_tools4
+[1.694s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.68.0")  
+[1.700s] -- Checking for module 'jsoncpp'
+[1.709s] --   Found jsoncpp, version 1.7.4
+[1.731s] -- Found JSONCPP: TRUE  
+[1.734s] -- Checking for module 'libzip'
+[1.744s] --   Found libzip, version 1.5.1
+[1.765s] -- Found ZIP: TRUE  
+[1.765s] -- Looking for ignition-common3 -- found version 3.14.2
+[1.765s] -- Looking for ignition-math6 -- found version 6.12.0
+[1.765s] -- Looking for ignition-msgs5 -- found version 5.10.0
+[1.766s] -- Gazebo version: 11.11
+[1.767s] -- Found gazebo_msgs: 3.5.3 (/home/ravi/pmb2_foxy_ws/install/gazebo_msgs/share/gazebo_msgs/cmake)
+[1.898s] -- Found gazebo_ros: 3.5.3 (/home/ravi/pmb2_foxy_ws/install/gazebo_ros/share/gazebo_ros/cmake)
+[1.904s] -- Found image_transport: 2.3.0 (/opt/ros/foxy/share/image_transport/cmake)
+[1.934s] -- Found cv_bridge: 2.2.1 (/opt/ros/foxy/share/cv_bridge/cmake)
+[1.952s] -- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+[1.998s] -- Found std_srvs: 2.0.5 (/opt/ros/foxy/share/std_srvs/cmake)
+[2.005s] -- Found tf2: 0.13.13 (/opt/ros/foxy/share/tf2/cmake)
+[2.011s] -- Found tf2_geometry_msgs: 0.13.13 (/opt/ros/foxy/share/tf2_geometry_msgs/cmake)
+[2.017s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)
+[2.018s] -- Found Eigen3: TRUE (found version "3.3.7") 
+[2.582s] -- Found ament_cmake_gtest: 0.9.9 (/opt/ros/foxy/share/ament_cmake_gtest/cmake)
+[2.585s] -- Found gtest sources under '/opt/ros/foxy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[2.586s] -- Check if compiler accepts -pthread
+[2.643s] -- Check if compiler accepts -pthread - yes
+[3.109s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[3.161s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.163s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.166s] -- Configured cppcheck include dirs: /home/ravi/pmb2_foxy_ws/src/gazebo_ros_pkgs/gazebo_plugins/include
+[3.166s] -- Configured cppcheck exclude dirs and/or files: 
+[3.169s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[3.169s] -- Configured cpplint exclude dirs and/or files: 
+[3.170s] -- Added test 'lint_cmake' to check CMake code style
+[3.172s] -- Added test 'uncrustify' to check C / C++ code style
+[3.172s] -- Configured uncrustify additional arguments: 
+[3.173s] -- Added test 'xmllint' to check XML markup files
+[3.178s] -- Configuring done
+[3.794s] -- Generating done
+[3.798s] -- Build files have been written to: /home/ravi/pmb2_foxy_ws/build/gazebo_plugins
+[3.812s] Invoked command in '/home/ravi/pmb2_foxy_ws/build/gazebo_plugins' returned '0': AMENT_PREFIX_PATH=/home/ravi/pmb2_foxy_ws/install/gazebo_ros:/home/ravi/pmb2_foxy_ws/install/gazebo_msgs:/home/ravi/pmb2_foxy_ws/install/gazebo_dev:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ravi/pmb2_foxy_ws/install/gazebo_ros:/home/ravi/pmb2_foxy_ws/install/gazebo_msgs:/home/ravi/pmb2_foxy_ws/install/gazebo_dev:/home/ravi/pmb2_foxy_ws/install/pal_gazebo_worlds:/home/ravi/pmb2_foxy_ws/install/pmb2_simulation:/home/ravi/pmb2_foxy_ws/install/pmb2_navigation:/home/ravi/pmb2_foxy_ws/install/pmb2_2dnav_gazebo:/home/ravi/pmb2_foxy_ws/install/pmb2_2dnav:/home/ravi/pmb2_foxy_ws/install/pmb2_maps:/home/ravi/pmb2_foxy_ws/install/pmb2_gazebo:/home/ravi/pmb2_foxy_ws/install/pmb2_robot:/home/ravi/pmb2_foxy_ws/install/pmb2_bringup:/home/ravi/pmb2_foxy_ws/install/pmb2_description:/home/ravi/pmb2_foxy_ws/install/pmb2_controller_configuration:/home/ravi/pmb2_foxy_ws/install/launch_pal:/opt/ros/foxy LD_LIBRARY_PATH=/home/ravi/pmb2_foxy_ws/install/gazebo_ros/lib:/home/ravi/pmb2_foxy_ws/install/gazebo_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ravi/pmb2_foxy_ws/install/gazebo_ros/lib/python3.8/site-packages:/home/ravi/pmb2_foxy_ws/install/gazebo_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/ravi/pmb2_foxy_ws/src/gazebo_ros_pkgs/gazebo_plugins -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ravi/pmb2_foxy_ws/install/gazebo_plugins
+[3.814s] Invoking command in '/home/ravi/pmb2_foxy_ws/build/gazebo_plugins': AMENT_PREFIX_PATH=/home/ravi/pmb2_foxy_ws/install/gazebo_ros:/home/ravi/pmb2_foxy_ws/install/gazebo_msgs:/home/ravi/pmb2_foxy_ws/install/gazebo_dev:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ravi/pmb2_foxy_ws/install/gazebo_ros:/home/ravi/pmb2_foxy_ws/install/gazebo_msgs:/home/ravi/pmb2_foxy_ws/install/gazebo_dev:/home/ravi/pmb2_foxy_ws/install/pal_gazebo_worlds:/home/ravi/pmb2_foxy_ws/install/pmb2_simulation:/home/ravi/pmb2_foxy_ws/install/pmb2_navigation:/home/ravi/pmb2_foxy_ws/install/pmb2_2dnav_gazebo:/home/ravi/pmb2_foxy_ws/install/pmb2_2dnav:/home/ravi/pmb2_foxy_ws/install/pmb2_maps:/home/ravi/pmb2_foxy_ws/install/pmb2_gazebo:/home/ravi/pmb2_foxy_ws/install/pmb2_robot:/home/ravi/pmb2_foxy_ws/install/pmb2_bringup:/home/ravi/pmb2_foxy_ws/install/pmb2_description:/home/ravi/pmb2_foxy_ws/install/pmb2_controller_configuration:/home/ravi/pmb2_foxy_ws/install/launch_pal:/opt/ros/foxy LD_LIBRARY_PATH=/home/ravi/pmb2_foxy_ws/install/gazebo_ros/lib:/home/ravi/pmb2_foxy_ws/install/gazebo_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ravi/pmb2_foxy_ws/install/gazebo_ros/lib/python3.8/site-packages:/home/ravi/pmb2_foxy_ws/install/gazebo_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ravi/pmb2_foxy_ws/build/gazebo_plugins -- -j8 -l8
+[3.846s] [35m[1mScanning dependencies of target gazebo_ros_imu_sensor[0m
+[3.847s] [35m[1mScanning dependencies of target gazebo_ros_tricycle_drive[0m
+[3.847s] [35m[1mScanning dependencies of target gazebo_ros_force[0m
+[3.847s] [35m[1mScanning dependencies of target gazebo_ros_gps_sensor[0m
+[3.847s] [35m[1mScanning dependencies of target gazebo_ros_diff_drive[0m
+[3.847s] [35m[1mScanning dependencies of target gazebo_ros_joint_state_publisher[0m
+[3.849s] [35m[1mScanning dependencies of target gazebo_ros_p3d[0m
+[3.849s] [35m[1mScanning dependencies of target multi_camera_plugin[0m
+[3.940s] [  1%] [32mBuilding CXX object CMakeFiles/multi_camera_plugin.dir/src/multi_camera_plugin.cpp.o[0m
+[3.971s] [  3%] [32mBuilding CXX object CMakeFiles/gazebo_ros_gps_sensor.dir/src/gazebo_ros_gps_sensor.cpp.o[0m
+[3.971s] [  3%] [32mBuilding CXX object CMakeFiles/gazebo_ros_joint_state_publisher.dir/src/gazebo_ros_joint_state_publisher.cpp.o[0m
+[3.974s] [  4%] [32mBuilding CXX object CMakeFiles/gazebo_ros_diff_drive.dir/src/gazebo_ros_diff_drive.cpp.o[0m
+[3.976s] [  5%] [32mBuilding CXX object CMakeFiles/gazebo_ros_force.dir/src/gazebo_ros_force.cpp.o[0m
+[3.979s] [  7%] [32mBuilding CXX object CMakeFiles/gazebo_ros_p3d.dir/src/gazebo_ros_p3d.cpp.o[0m
+[3.979s] [  8%] [32mBuilding CXX object CMakeFiles/gazebo_ros_tricycle_drive.dir/src/gazebo_ros_tricycle_drive.cpp.o[0m
+[3.980s] [  9%] [32mBuilding CXX object CMakeFiles/gazebo_ros_imu_sensor.dir/src/gazebo_ros_imu_sensor.cpp.o[0m
+[17.070s] [ 10%] [32m[1mLinking CXX shared library libgazebo_ros_gps_sensor.so[0m
+[17.472s] [ 11%] [32m[1mLinking CXX shared library libgazebo_ros_joint_state_publisher.so[0m
+[17.634s] [ 11%] Built target gazebo_ros_gps_sensor
+[17.647s] [35m[1mScanning dependencies of target gazebo_ros_template[0m
+[17.800s] [ 13%] [32mBuilding CXX object CMakeFiles/gazebo_ros_template.dir/src/gazebo_ros_template.cpp.o[0m
+[17.870s] [ 14%] [32m[1mLinking CXX shared library libgazebo_ros_imu_sensor.so[0m
+[18.085s] [ 14%] Built target gazebo_ros_joint_state_publisher
+[18.099s] [35m[1mScanning dependencies of target gazebo_ros_video[0m
+[18.164s] [ 15%] [32m[1mLinking CXX shared library libgazebo_ros_p3d.so[0m
+[18.336s] [ 16%] [32mBuilding CXX object CMakeFiles/gazebo_ros_video.dir/src/gazebo_ros_video.cpp.o[0m
+[18.399s] [ 16%] Built target gazebo_ros_imu_sensor
+[18.412s] [35m[1mScanning dependencies of target gazebo_ros_ft_sensor[0m
+[18.557s] [ 17%] [32mBuilding CXX object CMakeFiles/gazebo_ros_ft_sensor.dir/src/gazebo_ros_ft_sensor.cpp.o[0m
+[18.853s] [ 17%] Built target gazebo_ros_p3d
+[18.875s] [35m[1mScanning dependencies of target gazebo_ros_ray_sensor[0m
+[19.005s] [ 19%] [32mBuilding CXX object CMakeFiles/gazebo_ros_ray_sensor.dir/src/gazebo_ros_ray_sensor.cpp.o[0m
+[19.514s] [ 20%] [32m[1mLinking CXX shared library libgazebo_ros_force.so[0m
+[20.236s] [ 20%] Built target gazebo_ros_force
+[20.263s] [35m[1mScanning dependencies of target gazebo_ros_bumper[0m
+[20.410s] [ 21%] [32mBuilding CXX object CMakeFiles/gazebo_ros_bumper.dir/src/gazebo_ros_bumper.cpp.o[0m
+[21.197s] [ 22%] [32m[1mLinking CXX shared library libmulti_camera_plugin.so[0m
+[21.428s] [ 23%] [32m[1mLinking CXX shared library libgazebo_ros_diff_drive.so[0m
+[21.535s] [ 23%] Built target multi_camera_plugin
+[21.548s] [35m[1mScanning dependencies of target gazebo_ros_harness[0m
+[21.698s] [ 25%] [32mBuilding CXX object CMakeFiles/gazebo_ros_harness.dir/src/gazebo_ros_harness.cpp.o[0m
+[21.960s] [ 26%] [32m[1mLinking CXX shared library libgazebo_ros_tricycle_drive.so[0m
+[22.388s] [ 26%] Built target gazebo_ros_diff_drive
+[22.402s] [35m[1mScanning dependencies of target gazebo_ros_ackermann_drive[0m
+[22.558s] [ 27%] [32mBuilding CXX object CMakeFiles/gazebo_ros_ackermann_drive.dir/src/gazebo_ros_ackermann_drive.cpp.o[0m
+[22.965s] [ 27%] Built target gazebo_ros_tricycle_drive
+[22.978s] [35m[1mScanning dependencies of target gazebo_ros_hand_of_god[0m
+[23.133s] [ 28%] [32mBuilding CXX object CMakeFiles/gazebo_ros_hand_of_god.dir/src/gazebo_ros_hand_of_god.cpp.o[0m
+[29.744s] [ 29%] [32m[1mLinking CXX shared library libgazebo_ros_template.so[0m
+[30.251s] [ 29%] Built target gazebo_ros_template
+[30.264s] [35m[1mScanning dependencies of target gazebo_ros_planar_move[0m
+[30.416s] [ 30%] [32mBuilding CXX object CMakeFiles/gazebo_ros_planar_move.dir/src/gazebo_ros_planar_move.cpp.o[0m
+[32.469s] [ 32%] [32m[1mLinking CXX shared library libgazebo_ros_ft_sensor.so[0m
+[33.058s] [ 32%] Built target gazebo_ros_ft_sensor
+[33.070s] [35m[1mScanning dependencies of target gazebo_ros_wheel_slip[0m
+[33.218s] [ 33%] [32mBuilding CXX object CMakeFiles/gazebo_ros_wheel_slip.dir/src/gazebo_ros_wheel_slip.cpp.o[0m
+[34.940s] [ 34%] [32m[1mLinking CXX shared library libgazebo_ros_bumper.so[0m
+[35.714s] [ 34%] Built target gazebo_ros_bumper
+[35.726s] [35m[1mScanning dependencies of target gazebo_ros_vacuum_gripper[0m
+[35.874s] [ 35%] [32mBuilding CXX object CMakeFiles/gazebo_ros_vacuum_gripper.dir/src/gazebo_ros_vacuum_gripper.cpp.o[0m
+[36.367s] [ 36%] [32m[1mLinking CXX shared library libgazebo_ros_ray_sensor.so[0m
+[37.276s] [ 36%] Built target gazebo_ros_ray_sensor
+[37.289s] [35m[1mScanning dependencies of target gazebo_ros_joint_pose_trajectory[0m
+[37.439s] [ 38%] [32mBuilding CXX object CMakeFiles/gazebo_ros_joint_pose_trajectory.dir/src/gazebo_ros_joint_pose_trajectory.cpp.o[0m
+[37.594s] [ 39%] [32m[1mLinking CXX shared library libgazebo_ros_hand_of_god.so[0m
+[38.304s] [ 39%] Built target gazebo_ros_hand_of_god
+[38.318s] [35m[1mScanning dependencies of target gazebo_ros_elevator[0m
+[38.415s] [ 40%] [32mBuilding CXX object CMakeFiles/gazebo_ros_elevator.dir/src/gazebo_ros_elevator.cpp.o[0m
+[39.235s] [ 41%] [32m[1mLinking CXX shared library libgazebo_ros_harness.so[0m
+[40.096s] [ 41%] Built target gazebo_ros_harness
+[40.108s] [35m[1mScanning dependencies of target gazebo_ros_projector[0m
+[40.268s] [ 42%] [32mBuilding CXX object CMakeFiles/gazebo_ros_projector.dir/src/gazebo_ros_projector.cpp.o[0m
+[42.154s] [ 44%] [32m[1mLinking CXX shared library libgazebo_ros_ackermann_drive.so[0m
+[43.130s] [ 44%] Built target gazebo_ros_ackermann_drive
+[43.141s] [35m[1mScanning dependencies of target gtest[0m
+[43.162s] [ 45%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[45.460s] [ 46%] [32m[1mLinking CXX shared library libgazebo_ros_video.so[0m
+[46.743s] [ 46%] Built target gazebo_ros_video
+[46.755s] [35m[1mScanning dependencies of target gtest_main[0m
+[46.771s] [ 47%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[46.984s] [ 48%] [32m[1mLinking CXX static library libgtest.a[0m
+[47.046s] [ 48%] Built target gtest
+[47.059s] [35m[1mScanning dependencies of target gazebo_ros_camera[0m
+[47.075s] [ 50%] [32m[1mLinking CXX shared library libgazebo_ros_wheel_slip.so[0m
+[47.217s] [ 51%] [32mBuilding CXX object CMakeFiles/gazebo_ros_camera.dir/src/gazebo_ros_camera.cpp.o[0m
+[47.516s] [ 51%] Built target gazebo_ros_wheel_slip
+[47.620s] [ 52%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[47.660s] [ 52%] Built target gtest_main
+[47.672s] [35m[1mScanning dependencies of target test_gazebo_ros_ray_sensor[0m
+[47.673s] [35m[1mScanning dependencies of target test_gazebo_ros_planar_move[0m
+[47.851s] [ 53%] [32mBuilding CXX object test/CMakeFiles/test_gazebo_ros_planar_move.dir/test_gazebo_ros_planar_move.cpp.o[0m
+[47.853s] [ 54%] [32mBuilding CXX object test/CMakeFiles/test_gazebo_ros_ray_sensor.dir/test_gazebo_ros_ray_sensor.cpp.o[0m
+[48.536s] [ 55%] [32m[1mLinking CXX shared library libgazebo_ros_planar_move.so[0m
+[49.540s] [ 55%] Built target gazebo_ros_planar_move
+[49.554s] [35m[1mScanning dependencies of target test_gazebo_ros_joint_pose_trajectory[0m
+[49.746s] [ 57%] [32mBuilding CXX object test/CMakeFiles/test_gazebo_ros_joint_pose_trajectory.dir/test_gazebo_ros_joint_pose_trajectory.cpp.o[0m
+[50.792s] [ 58%] [32m[1mLinking CXX shared library libgazebo_ros_vacuum_gripper.so[0m
+[51.524s] [ 58%] Built target gazebo_ros_vacuum_gripper
+[51.540s] [35m[1mScanning dependencies of target test_gazebo_ros_ackermann_drive[0m
+[51.743s] [ 59%] [32mBuilding CXX object test/CMakeFiles/test_gazebo_ros_ackermann_drive.dir/test_gazebo_ros_ackermann_drive.cpp.o[0m
+[52.484s] [ 60%] [32m[1mLinking CXX shared library libgazebo_ros_elevator.so[0m
+[53.186s] [ 60%] Built target gazebo_ros_elevator
+[53.200s] [35m[1mScanning dependencies of target test_gazebo_ros_elevator[0m
+[53.389s] [ 61%] [32mBuilding CXX object test/CMakeFiles/test_gazebo_ros_elevator.dir/test_gazebo_ros_elevator.cpp.o[0m
+[54.626s] [ 63%] [32m[1mLinking CXX shared library libgazebo_ros_joint_pose_trajectory.so[0m
+[55.596s] [ 63%] Built target gazebo_ros_joint_pose_trajectory
+[55.640s] [35m[1mScanning dependencies of target test_gazebo_ros_p3d[0m
+[55.912s] [ 64%] [32mBuilding CXX object test/CMakeFiles/test_gazebo_ros_p3d.dir/test_gazebo_ros_p3d.cpp.o[0m
+[59.706s] [ 65%] [32m[1mLinking CXX shared library libgazebo_ros_projector.so[0m
+[60.677s] [ 65%] Built target gazebo_ros_projector
+[60.691s] [35m[1mScanning dependencies of target test_gazebo_ros_force[0m
+[60.874s] [ 66%] [32mBuilding CXX object test/CMakeFiles/test_gazebo_ros_force.dir/test_gazebo_ros_force.cpp.o[0m
+[76.328s] [ 67%] [32m[1mLinking CXX executable test_gazebo_ros_joint_pose_trajectory[0m
+[76.446s] [ 69%] [32m[1mLinking CXX shared library libgazebo_ros_camera.so[0m
+[77.898s] [ 69%] Built target gazebo_ros_camera
+[77.912s] [35m[1mScanning dependencies of target test_gazebo_ros_tricycle_drive[0m
+[78.103s] [ 70%] [32mBuilding CXX object test/CMakeFiles/test_gazebo_ros_tricycle_drive.dir/test_gazebo_ros_tricycle_drive.cpp.o[0m
+[78.726s] [ 70%] Built target test_gazebo_ros_joint_pose_trajectory
+[78.739s] [35m[1mScanning dependencies of target test_gazebo_ros_hand_of_god[0m
+[78.931s] [ 71%] [32mBuilding CXX object test/CMakeFiles/test_gazebo_ros_hand_of_god.dir/test_gazebo_ros_hand_of_god.cpp.o[0m
+[79.219s] [ 72%] [32m[1mLinking CXX executable test_gazebo_ros_elevator[0m
+[79.304s] [ 73%] [32m[1mLinking CXX executable test_gazebo_ros_planar_move[0m
+[81.480s] [ 73%] Built target test_gazebo_ros_elevator
+[81.493s] [35m[1mScanning dependencies of target test_gazebo_ros_vacuum_gripper[0m
+[81.669s] [ 75%] [32mBuilding CXX object test/CMakeFiles/test_gazebo_ros_vacuum_gripper.dir/test_gazebo_ros_vacuum_gripper.cpp.o[0m
+[81.824s] [ 75%] Built target test_gazebo_ros_planar_move
+[81.839s] [35m[1mScanning dependencies of target test_gazebo_ros_harness[0m
+[82.028s] [ 76%] [32mBuilding CXX object test/CMakeFiles/test_gazebo_ros_harness.dir/test_gazebo_ros_harness.cpp.o[0m
+[82.391s] [ 77%] [32m[1mLinking CXX executable test_gazebo_ros_ackermann_drive[0m
+[84.775s] [ 77%] Built target test_gazebo_ros_ackermann_drive
+[84.789s] [35m[1mScanning dependencies of target test_gazebo_ros_imu_sensor[0m
+[84.827s] [ 78%] [32m[1mLinking CXX executable test_gazebo_ros_ray_sensor[0m
+[84.983s] [ 79%] [32mBuilding CXX object test/CMakeFiles/test_gazebo_ros_imu_sensor.dir/test_gazebo_ros_imu_sensor.cpp.o[0m
+[86.248s] [ 80%] [32m[1mLinking CXX executable test_gazebo_ros_p3d[0m
+[86.763s] [ 82%] [32m[1mLinking CXX executable test_gazebo_ros_force[0m
+[87.910s] [ 82%] Built target test_gazebo_ros_ray_sensor
+[87.924s] [35m[1mScanning dependencies of target test_gazebo_ros_gps_sensor[0m
+[88.130s] [ 83%] [32mBuilding CXX object test/CMakeFiles/test_gazebo_ros_gps_sensor.dir/test_gazebo_ros_gps_sensor.cpp.o[0m
+[88.837s] [ 83%] Built target test_gazebo_ros_p3d
+[88.851s] [35m[1mScanning dependencies of target test_gazebo_ros_ft_sensor[0m
+[89.046s] [ 84%] [32mBuilding CXX object test/CMakeFiles/test_gazebo_ros_ft_sensor.dir/test_gazebo_ros_ft_sensor.cpp.o[0m
+[89.092s] [ 84%] Built target test_gazebo_ros_force
+[89.106s] [35m[1mScanning dependencies of target test_gazebo_ros_bumper[0m
+[89.297s] [ 85%] [32mBuilding CXX object test/CMakeFiles/test_gazebo_ros_bumper.dir/test_gazebo_ros_bumper.cpp.o[0m
+[104.913s] [ 86%] [32m[1mLinking CXX executable test_gazebo_ros_hand_of_god[0m
+[107.108s] [ 86%] Built target test_gazebo_ros_hand_of_god
+[107.121s] [35m[1mScanning dependencies of target test_gazebo_ros_diff_drive[0m
+[107.321s] [ 88%] [32mBuilding CXX object test/CMakeFiles/test_gazebo_ros_diff_drive.dir/test_gazebo_ros_diff_drive.cpp.o[0m
+[107.463s] [ 89%] [32m[1mLinking CXX executable test_gazebo_ros_vacuum_gripper[0m
+[109.629s] [ 89%] Built target test_gazebo_ros_vacuum_gripper
+[109.645s] [35m[1mScanning dependencies of target test_gazebo_ros_joint_state_publisher[0m
+[109.671s] [ 90%] [32m[1mLinking CXX executable test_gazebo_ros_harness[0m
+[109.828s] [ 91%] [32mBuilding CXX object test/CMakeFiles/test_gazebo_ros_joint_state_publisher.dir/test_gazebo_ros_joint_state_publisher.cpp.o[0m
+[110.355s] [ 92%] [32m[1mLinking CXX executable test_gazebo_ros_tricycle_drive[0m
+[111.912s] [ 92%] Built target test_gazebo_ros_harness
+[112.915s] [ 92%] Built target test_gazebo_ros_tricycle_drive
+[113.956s] [ 94%] [32m[1mLinking CXX executable test_gazebo_ros_imu_sensor[0m
+[115.447s] [ 94%] Built target test_gazebo_ros_imu_sensor
+[116.937s] [ 95%] [32m[1mLinking CXX executable test_gazebo_ros_bumper[0m
+[118.444s] [ 95%] Built target test_gazebo_ros_bumper
+[118.457s] [ 96%] [32m[1mLinking CXX executable test_gazebo_ros_gps_sensor[0m
+[118.802s] [ 97%] [32m[1mLinking CXX executable test_gazebo_ros_ft_sensor[0m
+[120.073s] [ 97%] Built target test_gazebo_ros_gps_sensor
+[120.347s] [ 97%] Built target test_gazebo_ros_ft_sensor
+[127.971s] [ 98%] [32m[1mLinking CXX executable test_gazebo_ros_diff_drive[0m
+[129.204s] [ 98%] Built target test_gazebo_ros_diff_drive
+[129.551s] [100%] [32m[1mLinking CXX executable test_gazebo_ros_joint_state_publisher[0m
+[130.671s] [100%] Built target test_gazebo_ros_joint_state_publisher
+[130.680s] Invoked command in '/home/ravi/pmb2_foxy_ws/build/gazebo_plugins' returned '0': AMENT_PREFIX_PATH=/home/ravi/pmb2_foxy_ws/install/gazebo_ros:/home/ravi/pmb2_foxy_ws/install/gazebo_msgs:/home/ravi/pmb2_foxy_ws/install/gazebo_dev:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ravi/pmb2_foxy_ws/install/gazebo_ros:/home/ravi/pmb2_foxy_ws/install/gazebo_msgs:/home/ravi/pmb2_foxy_ws/install/gazebo_dev:/home/ravi/pmb2_foxy_ws/install/pal_gazebo_worlds:/home/ravi/pmb2_foxy_ws/install/pmb2_simulation:/home/ravi/pmb2_foxy_ws/install/pmb2_navigation:/home/ravi/pmb2_foxy_ws/install/pmb2_2dnav_gazebo:/home/ravi/pmb2_foxy_ws/install/pmb2_2dnav:/home/ravi/pmb2_foxy_ws/install/pmb2_maps:/home/ravi/pmb2_foxy_ws/install/pmb2_gazebo:/home/ravi/pmb2_foxy_ws/install/pmb2_robot:/home/ravi/pmb2_foxy_ws/install/pmb2_bringup:/home/ravi/pmb2_foxy_ws/install/pmb2_description:/home/ravi/pmb2_foxy_ws/install/pmb2_controller_configuration:/home/ravi/pmb2_foxy_ws/install/launch_pal:/opt/ros/foxy LD_LIBRARY_PATH=/home/ravi/pmb2_foxy_ws/install/gazebo_ros/lib:/home/ravi/pmb2_foxy_ws/install/gazebo_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ravi/pmb2_foxy_ws/install/gazebo_ros/lib/python3.8/site-packages:/home/ravi/pmb2_foxy_ws/install/gazebo_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ravi/pmb2_foxy_ws/build/gazebo_plugins -- -j8 -l8
+[130.728s] Invoking command in '/home/ravi/pmb2_foxy_ws/build/gazebo_plugins': AMENT_PREFIX_PATH=/home/ravi/pmb2_foxy_ws/install/gazebo_ros:/home/ravi/pmb2_foxy_ws/install/gazebo_msgs:/home/ravi/pmb2_foxy_ws/install/gazebo_dev:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ravi/pmb2_foxy_ws/install/gazebo_ros:/home/ravi/pmb2_foxy_ws/install/gazebo_msgs:/home/ravi/pmb2_foxy_ws/install/gazebo_dev:/home/ravi/pmb2_foxy_ws/install/pal_gazebo_worlds:/home/ravi/pmb2_foxy_ws/install/pmb2_simulation:/home/ravi/pmb2_foxy_ws/install/pmb2_navigation:/home/ravi/pmb2_foxy_ws/install/pmb2_2dnav_gazebo:/home/ravi/pmb2_foxy_ws/install/pmb2_2dnav:/home/ravi/pmb2_foxy_ws/install/pmb2_maps:/home/ravi/pmb2_foxy_ws/install/pmb2_gazebo:/home/ravi/pmb2_foxy_ws/install/pmb2_robot:/home/ravi/pmb2_foxy_ws/install/pmb2_bringup:/home/ravi/pmb2_foxy_ws/install/pmb2_description:/home/ravi/pmb2_foxy_ws/install/pmb2_controller_configuration:/home/ravi/pmb2_foxy_ws/install/launch_pal:/opt/ros/foxy LD_LIBRARY_PATH=/home/ravi/pmb2_foxy_ws/install/gazebo_ros/lib:/home/ravi/pmb2_foxy_ws/install/gazebo_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ravi/pmb2_foxy_ws/install/gazebo_ros/lib/python3.8/site-packages:/home/ravi/pmb2_foxy_ws/install/gazebo_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ravi/pmb2_foxy_ws/build/gazebo_plugins
+[130.734s] -- Install configuration: ""
+[130.734s] -- Execute custom install script
+[130.734s] -- Symlinking: /home/ravi/pmb2_foxy_ws/install/gazebo_plugins/share/gazebo_plugins/environment/library_path.sh
+[130.740s] -- Symlinking: /home/ravi/pmb2_foxy_ws/install/gazebo_plugins/share/gazebo_plugins/environment/library_path.dsv
+[130.746s] -- Symlinking: /home/ravi/pmb2_foxy_ws/install/gazebo_plugins/share/gazebo_plugins/environment/gazebo_plugins.sh
+[130.754s] -- Symlinking: /home/ravi/pmb2_foxy_ws/install/gazebo_plugins/share/gazebo_plugins/environment/gazebo_plugins.dsv
+[130.761s] -- Symlinking: /home/ravi/pmb2_foxy_ws/install/gazebo_plugins/share/ament_index/resource_index/package_run_dependencies/gazebo_plugins
+[130.768s] -- Symlinking: /home/ravi/pmb2_foxy_ws/install/gazebo_plugins/share/ament_index/resource_index/parent_prefix_path/gazebo_plugins
+[130.774s] -- Symlinking: /home/ravi/pmb2_foxy_ws/install/gazebo_plugins/share/gazebo_plugins/environment/ament_prefix_path.sh
+[130.779s] -- Symlinking: /home/ravi/pmb2_foxy_ws/install/gazebo_plugins/share/gazebo_plugins/environment/ament_prefix_path.dsv
+[130.785s] -- Symlinking: /home/ravi/pmb2_foxy_ws/install/gazebo_plugins/share/gazebo_plugins/environment/path.sh
+[130.790s] -- Symlinking: /home/ravi/pmb2_foxy_ws/install/gazebo_plugins/share/gazebo_plugins/environment/path.dsv
+[130.795s] -- Symlinking: /home/ravi/pmb2_foxy_ws/install/gazebo_plugins/share/gazebo_plugins/local_setup.bash
+[130.800s] -- Symlinking: /home/ravi/pmb2_foxy_ws/install/gazebo_plugins/share/gazebo_plugins/local_setup.sh
+[130.806s] -- Symlinking: /home/ravi/pmb2_foxy_ws/install/gazebo_plugins/share/gazebo_plugins/local_setup.zsh
+[130.811s] -- Symlinking: /home/ravi/pmb2_foxy_ws/install/gazebo_plugins/share/gazebo_plugins/local_setup.dsv
+[130.816s] -- Symlinking: /home/ravi/pmb2_foxy_ws/install/gazebo_plugins/share/gazebo_plugins/package.dsv
+[130.822s] -- Symlinking: /home/ravi/pmb2_foxy_ws/install/gazebo_plugins/share/ament_index/resource_index/packages/gazebo_plugins
+[130.827s] -- Symlinking: /home/ravi/pmb2_foxy_ws/install/gazebo_plugins/share/gazebo_plugins/cmake/ament_cmake_export_libraries-extras.cmake
+[130.832s] -- Symlinking: /home/ravi/pmb2_foxy_ws/install/gazebo_plugins/share/gazebo_plugins/cmake/ament_cmake_export_include_directories-extras.cmake
+[130.837s] -- Symlinking: /home/ravi/pmb2_foxy_ws/install/gazebo_plugins/share/gazebo_plugins/cmake/ament_cmake_export_dependencies-extras.cmake
+[130.843s] -- Symlinking: /home/ravi/pmb2_foxy_ws/install/gazebo_plugins/share/gazebo_plugins/cmake/gazebo_pluginsConfig.cmake
+[130.848s] -- Symlinking: /home/ravi/pmb2_foxy_ws/install/gazebo_plugins/share/gazebo_plugins/cmake/gazebo_pluginsConfig-version.cmake
+[130.854s] -- Symlinking: /home/ravi/pmb2_foxy_ws/install/gazebo_plugins/share/gazebo_plugins/package.xml
+[130.863s] -- Symlinking: /home/ravi/pmb2_foxy_ws/install/gazebo_plugins/include/gazebo_plugins/gazebo_ros_ackermann_drive.hpp
+[130.869s] -- Symlinking: /home/ravi/pmb2_foxy_ws/install/gazebo_plugins/include/gazebo_plugins/gazebo_ros_bumper.hpp
+[130.874s] -- Symlinking: /home/ravi/pmb2_foxy_ws/install/gazebo_plugins/include/gazebo_plugins/gazebo_ros_camera.hpp
+[130.879s] -- Symlinking: /home/ravi/pmb2_foxy_ws/install/gazebo_plugins/include/gazebo_plugins/gazebo_ros_diff_drive.hpp
+[130.884s] -- Symlinking: /home/ravi/pmb2_foxy_ws/install/gazebo_plugins/include/gazebo_plugins/gazebo_ros_elevator.hpp
+[130.889s] -- Symlinking: /home/ravi/pmb2_foxy_ws/install/gazebo_plugins/include/gazebo_plugins/gazebo_ros_force.hpp
+[130.894s] -- Symlinking: /home/ravi/pmb2_foxy_ws/install/gazebo_plugins/include/gazebo_plugins/gazebo_ros_ft_sensor.hpp
+[130.899s] -- Symlinking: /home/ravi/pmb2_foxy_ws/install/gazebo_plugins/include/gazebo_plugins/gazebo_ros_gps_sensor.hpp
+[130.904s] -- Symlinking: /home/ravi/pmb2_foxy_ws/install/gazebo_plugins/include/gazebo_plugins/gazebo_ros_hand_of_god.hpp
+[130.909s] -- Symlinking: /home/ravi/pmb2_foxy_ws/install/gazebo_plugins/include/gazebo_plugins/gazebo_ros_harness.hpp
+[130.915s] -- Symlinking: /home/ravi/pmb2_foxy_ws/install/gazebo_plugins/include/gazebo_plugins/gazebo_ros_imu_sensor.hpp
+[130.920s] -- Symlinking: /home/ravi/pmb2_foxy_ws/install/gazebo_plugins/include/gazebo_plugins/gazebo_ros_joint_pose_trajectory.hpp
+[130.925s] -- Symlinking: /home/ravi/pmb2_foxy_ws/install/gazebo_plugins/include/gazebo_plugins/gazebo_ros_joint_state_publisher.hpp
+[130.930s] -- Symlinking: /home/ravi/pmb2_foxy_ws/install/gazebo_plugins/include/gazebo_plugins/gazebo_ros_p3d.hpp
+[130.936s] -- Symlinking: /home/ravi/pmb2_foxy_ws/install/gazebo_plugins/include/gazebo_plugins/gazebo_ros_planar_move.hpp
+[130.941s] -- Symlinking: /home/ravi/pmb2_foxy_ws/install/gazebo_plugins/include/gazebo_plugins/gazebo_ros_projector.hpp
+[130.946s] -- Symlinking: /home/ravi/pmb2_foxy_ws/install/gazebo_plugins/include/gazebo_plugins/gazebo_ros_ray_sensor.hpp
+[130.951s] -- Symlinking: /home/ravi/pmb2_foxy_ws/install/gazebo_plugins/include/gazebo_plugins/gazebo_ros_template.hpp
+[130.956s] -- Symlinking: /home/ravi/pmb2_foxy_ws/install/gazebo_plugins/include/gazebo_plugins/gazebo_ros_tricycle_drive.hpp
+[130.962s] -- Symlinking: /home/ravi/pmb2_foxy_ws/install/gazebo_plugins/include/gazebo_plugins/gazebo_ros_vacuum_gripper.hpp
+[130.967s] -- Symlinking: /home/ravi/pmb2_foxy_ws/install/gazebo_plugins/include/gazebo_plugins/gazebo_ros_video.hpp
+[130.972s] -- Symlinking: /home/ravi/pmb2_foxy_ws/install/gazebo_plugins/include/gazebo_plugins/gazebo_ros_wheel_slip.hpp
+[130.977s] -- Symlinking: /home/ravi/pmb2_foxy_ws/install/gazebo_plugins/include/gazebo_plugins/multi_camera_plugin.hpp
+[130.983s] -- Symlinking: /home/ravi/pmb2_foxy_ws/install/gazebo_plugins/lib/libgazebo_ros_ackermann_drive.so
+[130.988s] -- Symlinking: /home/ravi/pmb2_foxy_ws/install/gazebo_plugins/lib/libgazebo_ros_bumper.so
+[130.993s] -- Symlinking: /home/ravi/pmb2_foxy_ws/install/gazebo_plugins/lib/libgazebo_ros_camera.so
+[130.998s] -- Symlinking: /home/ravi/pmb2_foxy_ws/install/gazebo_plugins/lib/libgazebo_ros_diff_drive.so
+[131.004s] -- Symlinking: /home/ravi/pmb2_foxy_ws/install/gazebo_plugins/lib/libgazebo_ros_elevator.so
+[131.009s] -- Symlinking: /home/ravi/pmb2_foxy_ws/install/gazebo_plugins/lib/libgazebo_ros_force.so
+[131.014s] -- Symlinking: /home/ravi/pmb2_foxy_ws/install/gazebo_plugins/lib/libgazebo_ros_ft_sensor.so
+[131.020s] -- Symlinking: /home/ravi/pmb2_foxy_ws/install/gazebo_plugins/lib/libgazebo_ros_hand_of_god.so
+[131.025s] -- Symlinking: /home/ravi/pmb2_foxy_ws/install/gazebo_plugins/lib/libgazebo_ros_harness.so
+[131.030s] -- Symlinking: /home/ravi/pmb2_foxy_ws/install/gazebo_plugins/lib/libgazebo_ros_imu_sensor.so
+[131.035s] -- Symlinking: /home/ravi/pmb2_foxy_ws/install/gazebo_plugins/lib/libgazebo_ros_gps_sensor.so
+[131.041s] -- Symlinking: /home/ravi/pmb2_foxy_ws/install/gazebo_plugins/lib/libgazebo_ros_joint_pose_trajectory.so
+[131.046s] -- Symlinking: /home/ravi/pmb2_foxy_ws/install/gazebo_plugins/lib/libgazebo_ros_joint_state_publisher.so
+[131.051s] -- Symlinking: /home/ravi/pmb2_foxy_ws/install/gazebo_plugins/lib/libgazebo_ros_planar_move.so
+[131.056s] -- Symlinking: /home/ravi/pmb2_foxy_ws/install/gazebo_plugins/lib/libgazebo_ros_projector.so
+[131.061s] -- Symlinking: /home/ravi/pmb2_foxy_ws/install/gazebo_plugins/lib/libgazebo_ros_ray_sensor.so
+[131.067s] -- Symlinking: /home/ravi/pmb2_foxy_ws/install/gazebo_plugins/lib/libgazebo_ros_p3d.so
+[131.072s] -- Symlinking: /home/ravi/pmb2_foxy_ws/install/gazebo_plugins/lib/libgazebo_ros_template.so
+[131.077s] -- Symlinking: /home/ravi/pmb2_foxy_ws/install/gazebo_plugins/lib/libgazebo_ros_tricycle_drive.so
+[131.083s] -- Symlinking: /home/ravi/pmb2_foxy_ws/install/gazebo_plugins/lib/libgazebo_ros_vacuum_gripper.so
+[131.088s] -- Symlinking: /home/ravi/pmb2_foxy_ws/install/gazebo_plugins/lib/libgazebo_ros_video.so
+[131.094s] -- Symlinking: /home/ravi/pmb2_foxy_ws/install/gazebo_plugins/lib/libmulti_camera_plugin.so
+[131.099s] -- Symlinking: /home/ravi/pmb2_foxy_ws/install/gazebo_plugins/lib/libgazebo_ros_wheel_slip.so
+[131.105s] -- Symlinking: /home/ravi/pmb2_foxy_ws/install/gazebo_plugins/share/gazebo_plugins//worlds/gazebo_ros_ackermann_drive_demo.world
+[131.110s] -- Symlinking: /home/ravi/pmb2_foxy_ws/install/gazebo_plugins/share/gazebo_plugins//worlds/gazebo_ros_bumper_demo.world
+[131.115s] -- Symlinking: /home/ravi/pmb2_foxy_ws/install/gazebo_plugins/share/gazebo_plugins//worlds/gazebo_ros_camera_demo.world
+[131.120s] -- Symlinking: /home/ravi/pmb2_foxy_ws/install/gazebo_plugins/share/gazebo_plugins//worlds/gazebo_ros_camera_distortion_barrel_demo.world
+[131.126s] -- Symlinking: /home/ravi/pmb2_foxy_ws/install/gazebo_plugins/share/gazebo_plugins//worlds/gazebo_ros_camera_distortion_pincushion_demo.world
+[131.132s] -- Symlinking: /home/ravi/pmb2_foxy_ws/install/gazebo_plugins/share/gazebo_plugins//worlds/gazebo_ros_camera_triggered_demo.world
+[131.137s] -- Symlinking: /home/ravi/pmb2_foxy_ws/install/gazebo_plugins/share/gazebo_plugins//worlds/gazebo_ros_depth_camera_demo.world
+[131.142s] -- Symlinking: /home/ravi/pmb2_foxy_ws/install/gazebo_plugins/share/gazebo_plugins//worlds/gazebo_ros_diff_drive_demo.world
+[131.147s] -- Symlinking: /home/ravi/pmb2_foxy_ws/install/gazebo_plugins/share/gazebo_plugins//worlds/gazebo_ros_elevator_demo.world
+[131.152s] -- Symlinking: /home/ravi/pmb2_foxy_ws/install/gazebo_plugins/share/gazebo_plugins//worlds/gazebo_ros_force_demo.world
+[131.158s] -- Symlinking: /home/ravi/pmb2_foxy_ws/install/gazebo_plugins/share/gazebo_plugins//worlds/gazebo_ros_ft_sensor_demo.world
+[131.163s] -- Symlinking: /home/ravi/pmb2_foxy_ws/install/gazebo_plugins/share/gazebo_plugins//worlds/gazebo_ros_gps_sensor_demo.world
+[131.168s] -- Symlinking: /home/ravi/pmb2_foxy_ws/install/gazebo_plugins/share/gazebo_plugins//worlds/gazebo_ros_hand_of_god_demo.world
+[131.173s] -- Symlinking: /home/ravi/pmb2_foxy_ws/install/gazebo_plugins/share/gazebo_plugins//worlds/gazebo_ros_harness_demo.world
+[131.178s] -- Symlinking: /home/ravi/pmb2_foxy_ws/install/gazebo_plugins/share/gazebo_plugins//worlds/gazebo_ros_joint_pose_trajectory_demo.world
+[131.183s] -- Symlinking: /home/ravi/pmb2_foxy_ws/install/gazebo_plugins/share/gazebo_plugins//worlds/gazebo_ros_joint_state_publisher_demo.world
+[131.188s] -- Symlinking: /home/ravi/pmb2_foxy_ws/install/gazebo_plugins/share/gazebo_plugins//worlds/gazebo_ros_multi_camera_demo.world
+[131.194s] -- Symlinking: /home/ravi/pmb2_foxy_ws/install/gazebo_plugins/share/gazebo_plugins//worlds/gazebo_ros_multicamera_demo.world
+[131.198s] -- Symlinking: /home/ravi/pmb2_foxy_ws/install/gazebo_plugins/share/gazebo_plugins//worlds/gazebo_ros_p3d_demo.world
+[131.204s] -- Symlinking: /home/ravi/pmb2_foxy_ws/install/gazebo_plugins/share/gazebo_plugins//worlds/gazebo_ros_planar_move_demo.world
+[131.209s] -- Symlinking: /home/ravi/pmb2_foxy_ws/install/gazebo_plugins/share/gazebo_plugins//worlds/gazebo_ros_projector_demo.world
+[131.214s] -- Symlinking: /home/ravi/pmb2_foxy_ws/install/gazebo_plugins/share/gazebo_plugins//worlds/gazebo_ros_ray_sensor_demo.world
+[131.219s] -- Symlinking: /home/ravi/pmb2_foxy_ws/install/gazebo_plugins/share/gazebo_plugins//worlds/gazebo_ros_skid_steer_drive_demo.world
+[131.224s] -- Symlinking: /home/ravi/pmb2_foxy_ws/install/gazebo_plugins/share/gazebo_plugins//worlds/gazebo_ros_template_demo.world
+[131.229s] -- Symlinking: /home/ravi/pmb2_foxy_ws/install/gazebo_plugins/share/gazebo_plugins//worlds/gazebo_ros_tricycle_drive_demo.world
+[131.235s] -- Symlinking: /home/ravi/pmb2_foxy_ws/install/gazebo_plugins/share/gazebo_plugins//worlds/gazebo_ros_vacuum_gripper_demo.world
+[131.240s] -- Symlinking: /home/ravi/pmb2_foxy_ws/install/gazebo_plugins/share/gazebo_plugins//worlds/gazebo_ros_video_demo.world
+[131.246s] -- Symlinking: /home/ravi/pmb2_foxy_ws/install/gazebo_plugins/share/gazebo_plugins//worlds/gazebo_ros_wheel_slip_demo.world
+[131.252s] Invoked command in '/home/ravi/pmb2_foxy_ws/build/gazebo_plugins' returned '0': AMENT_PREFIX_PATH=/home/ravi/pmb2_foxy_ws/install/gazebo_ros:/home/ravi/pmb2_foxy_ws/install/gazebo_msgs:/home/ravi/pmb2_foxy_ws/install/gazebo_dev:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ravi/pmb2_foxy_ws/install/gazebo_ros:/home/ravi/pmb2_foxy_ws/install/gazebo_msgs:/home/ravi/pmb2_foxy_ws/install/gazebo_dev:/home/ravi/pmb2_foxy_ws/install/pal_gazebo_worlds:/home/ravi/pmb2_foxy_ws/install/pmb2_simulation:/home/ravi/pmb2_foxy_ws/install/pmb2_navigation:/home/ravi/pmb2_foxy_ws/install/pmb2_2dnav_gazebo:/home/ravi/pmb2_foxy_ws/install/pmb2_2dnav:/home/ravi/pmb2_foxy_ws/install/pmb2_maps:/home/ravi/pmb2_foxy_ws/install/pmb2_gazebo:/home/ravi/pmb2_foxy_ws/install/pmb2_robot:/home/ravi/pmb2_foxy_ws/install/pmb2_bringup:/home/ravi/pmb2_foxy_ws/install/pmb2_description:/home/ravi/pmb2_foxy_ws/install/pmb2_controller_configuration:/home/ravi/pmb2_foxy_ws/install/launch_pal:/opt/ros/foxy LD_LIBRARY_PATH=/home/ravi/pmb2_foxy_ws/install/gazebo_ros/lib:/home/ravi/pmb2_foxy_ws/install/gazebo_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ravi/pmb2_foxy_ws/install/gazebo_ros/lib/python3.8/site-packages:/home/ravi/pmb2_foxy_ws/install/gazebo_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ravi/pmb2_foxy_ws/build/gazebo_plugins

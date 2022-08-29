@@ -1,0 +1,23 @@
+[0.200s] Invoking command in '/home/ravi/pmb2_foxy_ws/build/transmission_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ravi/pmb2_foxy_ws/install/launch_pal:/opt/ros/foxy /usr/bin/cmake /home/ravi/pmb2_foxy_ws/src/ros2_control/transmission_interface -DCMAKE_INSTALL_PREFIX=/home/ravi/pmb2_foxy_ws/install/transmission_interface
+[0.210s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.233s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.408s] CMake Error at CMakeLists.txt:15 (find_package):
+[0.408s]   By not providing "Findhardware_interface.cmake" in CMAKE_MODULE_PATH this
+[0.408s]   project has asked CMake to find a package configuration file provided by
+[0.408s]   "hardware_interface", but CMake did not find one.
+[0.408s] 
+[0.408s]   Could not find a package configuration file provided by
+[0.408s]   "hardware_interface" with any of the following names:
+[0.408s] 
+[0.408s]     hardware_interfaceConfig.cmake
+[0.408s]     hardware_interface-config.cmake
+[0.408s] 
+[0.409s]   Add the installation prefix of "hardware_interface" to CMAKE_PREFIX_PATH or
+[0.409s]   set "hardware_interface_DIR" to a directory containing one of the above
+[0.409s]   files.  If "hardware_interface" provides a separate development package or
+[0.409s]   SDK, be sure it has been installed.
+[0.409s] 
+[0.409s] 
+[0.409s] -- Configuring incomplete, errors occurred!
+[0.409s] See also "/home/ravi/pmb2_foxy_ws/build/transmission_interface/CMakeFiles/CMakeOutput.log".
+[0.410s] Invoked command in '/home/ravi/pmb2_foxy_ws/build/transmission_interface' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ravi/pmb2_foxy_ws/install/launch_pal:/opt/ros/foxy /usr/bin/cmake /home/ravi/pmb2_foxy_ws/src/ros2_control/transmission_interface -DCMAKE_INSTALL_PREFIX=/home/ravi/pmb2_foxy_ws/install/transmission_interface

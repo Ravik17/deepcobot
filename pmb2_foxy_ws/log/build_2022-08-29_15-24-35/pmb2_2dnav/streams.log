@@ -1,0 +1,44 @@
+[0.012s] Invoking command in '/home/ravi/pmb2_foxy_ws/build/pmb2_2dnav': CMAKE_PREFIX_PATH=/home/ravi/pmb2_foxy_ws/install/pmb2_maps:/home/ravi/pmb2_foxy_ws/install/pal_gazebo_worlds:/home/ravi/pmb2_foxy_ws/install/pmb2_simulation:/home/ravi/pmb2_foxy_ws/install/pmb2_navigation:/home/ravi/pmb2_foxy_ws/install/pmb2_2dnav_gazebo:/home/ravi/pmb2_foxy_ws/install/pmb2_2dnav:/home/ravi/pmb2_foxy_ws/install/pmb2_gazebo:/home/ravi/pmb2_foxy_ws/install/pmb2_robot:/home/ravi/pmb2_foxy_ws/install/pmb2_bringup:/home/ravi/pmb2_foxy_ws/install/pmb2_description:/home/ravi/pmb2_foxy_ws/install/pmb2_controller_configuration:/home/ravi/pmb2_foxy_ws/install/launch_pal:/opt/ros/foxy /usr/bin/cmake /home/ravi/pmb2_foxy_ws/src/pmb2_navigation/pmb2_2dnav -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ravi/pmb2_foxy_ws/install/pmb2_2dnav
+[0.021s] -- Found ament_cmake_auto: 0.9.9 (/opt/ros/foxy/share/ament_cmake_auto/cmake)
+[0.044s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.153s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.205s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.213s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.214s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.214s] -- Added test 'lint_cmake' to check CMake code style
+[0.214s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[0.215s] -- Added test 'xmllint' to check XML markup files
+[0.217s] -- Configuring done
+[0.219s] -- Generating done
+[0.220s] -- Build files have been written to: /home/ravi/pmb2_foxy_ws/build/pmb2_2dnav
+[0.223s] Invoked command in '/home/ravi/pmb2_foxy_ws/build/pmb2_2dnav' returned '0': CMAKE_PREFIX_PATH=/home/ravi/pmb2_foxy_ws/install/pmb2_maps:/home/ravi/pmb2_foxy_ws/install/pal_gazebo_worlds:/home/ravi/pmb2_foxy_ws/install/pmb2_simulation:/home/ravi/pmb2_foxy_ws/install/pmb2_navigation:/home/ravi/pmb2_foxy_ws/install/pmb2_2dnav_gazebo:/home/ravi/pmb2_foxy_ws/install/pmb2_2dnav:/home/ravi/pmb2_foxy_ws/install/pmb2_gazebo:/home/ravi/pmb2_foxy_ws/install/pmb2_robot:/home/ravi/pmb2_foxy_ws/install/pmb2_bringup:/home/ravi/pmb2_foxy_ws/install/pmb2_description:/home/ravi/pmb2_foxy_ws/install/pmb2_controller_configuration:/home/ravi/pmb2_foxy_ws/install/launch_pal:/opt/ros/foxy /usr/bin/cmake /home/ravi/pmb2_foxy_ws/src/pmb2_navigation/pmb2_2dnav -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ravi/pmb2_foxy_ws/install/pmb2_2dnav
+[0.225s] Invoking command in '/home/ravi/pmb2_foxy_ws/build/pmb2_2dnav': CMAKE_PREFIX_PATH=/home/ravi/pmb2_foxy_ws/install/pmb2_maps:/home/ravi/pmb2_foxy_ws/install/pal_gazebo_worlds:/home/ravi/pmb2_foxy_ws/install/pmb2_simulation:/home/ravi/pmb2_foxy_ws/install/pmb2_navigation:/home/ravi/pmb2_foxy_ws/install/pmb2_2dnav_gazebo:/home/ravi/pmb2_foxy_ws/install/pmb2_2dnav:/home/ravi/pmb2_foxy_ws/install/pmb2_gazebo:/home/ravi/pmb2_foxy_ws/install/pmb2_robot:/home/ravi/pmb2_foxy_ws/install/pmb2_bringup:/home/ravi/pmb2_foxy_ws/install/pmb2_description:/home/ravi/pmb2_foxy_ws/install/pmb2_controller_configuration:/home/ravi/pmb2_foxy_ws/install/launch_pal:/opt/ros/foxy /usr/bin/cmake --build /home/ravi/pmb2_foxy_ws/build/pmb2_2dnav -- -j8 -l8
+[0.250s] Invoked command in '/home/ravi/pmb2_foxy_ws/build/pmb2_2dnav' returned '0': CMAKE_PREFIX_PATH=/home/ravi/pmb2_foxy_ws/install/pmb2_maps:/home/ravi/pmb2_foxy_ws/install/pal_gazebo_worlds:/home/ravi/pmb2_foxy_ws/install/pmb2_simulation:/home/ravi/pmb2_foxy_ws/install/pmb2_navigation:/home/ravi/pmb2_foxy_ws/install/pmb2_2dnav_gazebo:/home/ravi/pmb2_foxy_ws/install/pmb2_2dnav:/home/ravi/pmb2_foxy_ws/install/pmb2_gazebo:/home/ravi/pmb2_foxy_ws/install/pmb2_robot:/home/ravi/pmb2_foxy_ws/install/pmb2_bringup:/home/ravi/pmb2_foxy_ws/install/pmb2_description:/home/ravi/pmb2_foxy_ws/install/pmb2_controller_configuration:/home/ravi/pmb2_foxy_ws/install/launch_pal:/opt/ros/foxy /usr/bin/cmake --build /home/ravi/pmb2_foxy_ws/build/pmb2_2dnav -- -j8 -l8
+[0.266s] Invoking command in '/home/ravi/pmb2_foxy_ws/build/pmb2_2dnav': CMAKE_PREFIX_PATH=/home/ravi/pmb2_foxy_ws/install/pmb2_maps:/home/ravi/pmb2_foxy_ws/install/pal_gazebo_worlds:/home/ravi/pmb2_foxy_ws/install/pmb2_simulation:/home/ravi/pmb2_foxy_ws/install/pmb2_navigation:/home/ravi/pmb2_foxy_ws/install/pmb2_2dnav_gazebo:/home/ravi/pmb2_foxy_ws/install/pmb2_2dnav:/home/ravi/pmb2_foxy_ws/install/pmb2_gazebo:/home/ravi/pmb2_foxy_ws/install/pmb2_robot:/home/ravi/pmb2_foxy_ws/install/pmb2_bringup:/home/ravi/pmb2_foxy_ws/install/pmb2_description:/home/ravi/pmb2_foxy_ws/install/pmb2_controller_configuration:/home/ravi/pmb2_foxy_ws/install/launch_pal:/opt/ros/foxy /usr/bin/cmake --install /home/ravi/pmb2_foxy_ws/build/pmb2_2dnav
+[0.271s] -- Install configuration: ""
+[0.272s] -- Execute custom install script
+[0.272s] -- Up-to-date symlink: /home/ravi/pmb2_foxy_ws/install/pmb2_2dnav/lib/pmb2_2dnav/record_mapping.sh
+[0.272s] -- Up-to-date symlink: /home/ravi/pmb2_foxy_ws/install/pmb2_2dnav/lib/pmb2_2dnav/record_move_base.sh
+[0.272s] -- Up-to-date symlink: /home/ravi/pmb2_foxy_ws/install/pmb2_2dnav/lib/pmb2_2dnav/record_odom.sh
+[0.272s] -- Up-to-date symlink: /home/ravi/pmb2_foxy_ws/install/pmb2_2dnav/lib/pmb2_2dnav/record_patrol.sh
+[0.272s] -- Up-to-date symlink: /home/ravi/pmb2_foxy_ws/install/pmb2_2dnav/lib/pmb2_2dnav/record_rgbd.sh
+[0.273s] -- Up-to-date symlink: /home/ravi/pmb2_foxy_ws/install/pmb2_2dnav/share/pmb2_2dnav/config/rviz/advanced_navigation.rviz
+[0.273s] -- Up-to-date symlink: /home/ravi/pmb2_foxy_ws/install/pmb2_2dnav/share/pmb2_2dnav/config/rviz/navigation.rviz
+[0.273s] -- Up-to-date symlink: /home/ravi/pmb2_foxy_ws/install/pmb2_2dnav/share/pmb2_2dnav/launch/pmb2_nav_bringup.launch.py
+[0.274s] -- Up-to-date symlink: /home/ravi/pmb2_foxy_ws/install/pmb2_2dnav/share/pmb2_2dnav/params/pmb2_params.yaml
+[0.274s] -- Up-to-date symlink: /home/ravi/pmb2_foxy_ws/install/pmb2_2dnav/share/ament_index/resource_index/package_run_dependencies/pmb2_2dnav
+[0.274s] -- Up-to-date symlink: /home/ravi/pmb2_foxy_ws/install/pmb2_2dnav/share/ament_index/resource_index/parent_prefix_path/pmb2_2dnav
+[0.274s] -- Up-to-date symlink: /home/ravi/pmb2_foxy_ws/install/pmb2_2dnav/share/pmb2_2dnav/environment/ament_prefix_path.sh
+[0.274s] -- Up-to-date symlink: /home/ravi/pmb2_foxy_ws/install/pmb2_2dnav/share/pmb2_2dnav/environment/ament_prefix_path.dsv
+[0.274s] -- Up-to-date symlink: /home/ravi/pmb2_foxy_ws/install/pmb2_2dnav/share/pmb2_2dnav/environment/path.sh
+[0.275s] -- Up-to-date symlink: /home/ravi/pmb2_foxy_ws/install/pmb2_2dnav/share/pmb2_2dnav/environment/path.dsv
+[0.275s] -- Up-to-date symlink: /home/ravi/pmb2_foxy_ws/install/pmb2_2dnav/share/pmb2_2dnav/local_setup.bash
+[0.275s] -- Up-to-date symlink: /home/ravi/pmb2_foxy_ws/install/pmb2_2dnav/share/pmb2_2dnav/local_setup.sh
+[0.275s] -- Up-to-date symlink: /home/ravi/pmb2_foxy_ws/install/pmb2_2dnav/share/pmb2_2dnav/local_setup.zsh
+[0.275s] -- Up-to-date symlink: /home/ravi/pmb2_foxy_ws/install/pmb2_2dnav/share/pmb2_2dnav/local_setup.dsv
+[0.275s] -- Symlinking: /home/ravi/pmb2_foxy_ws/install/pmb2_2dnav/share/pmb2_2dnav/package.dsv
+[0.282s] -- Up-to-date symlink: /home/ravi/pmb2_foxy_ws/install/pmb2_2dnav/share/ament_index/resource_index/packages/pmb2_2dnav
+[0.282s] -- Up-to-date symlink: /home/ravi/pmb2_foxy_ws/install/pmb2_2dnav/share/pmb2_2dnav/cmake/pmb2_2dnavConfig.cmake
+[0.282s] -- Up-to-date symlink: /home/ravi/pmb2_foxy_ws/install/pmb2_2dnav/share/pmb2_2dnav/cmake/pmb2_2dnavConfig-version.cmake
+[0.282s] -- Up-to-date symlink: /home/ravi/pmb2_foxy_ws/install/pmb2_2dnav/share/pmb2_2dnav/package.xml
+[0.286s] Invoked command in '/home/ravi/pmb2_foxy_ws/build/pmb2_2dnav' returned '0': CMAKE_PREFIX_PATH=/home/ravi/pmb2_foxy_ws/install/pmb2_maps:/home/ravi/pmb2_foxy_ws/install/pal_gazebo_worlds:/home/ravi/pmb2_foxy_ws/install/pmb2_simulation:/home/ravi/pmb2_foxy_ws/install/pmb2_navigation:/home/ravi/pmb2_foxy_ws/install/pmb2_2dnav_gazebo:/home/ravi/pmb2_foxy_ws/install/pmb2_2dnav:/home/ravi/pmb2_foxy_ws/install/pmb2_gazebo:/home/ravi/pmb2_foxy_ws/install/pmb2_robot:/home/ravi/pmb2_foxy_ws/install/pmb2_bringup:/home/ravi/pmb2_foxy_ws/install/pmb2_description:/home/ravi/pmb2_foxy_ws/install/pmb2_controller_configuration:/home/ravi/pmb2_foxy_ws/install/launch_pal:/opt/ros/foxy /usr/bin/cmake --install /home/ravi/pmb2_foxy_ws/build/pmb2_2dnav

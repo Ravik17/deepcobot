@@ -1,0 +1,32 @@
+[0.209s] Invoking command in '/home/ravi/pmb2_foxy_ws/build/twist_mux': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ravi/pmb2_foxy_ws/install/ros2controlcli:/home/ravi/pmb2_foxy_ws/install/launch_pal:/opt/ros/foxy /usr/bin/cmake /home/ravi/pmb2_foxy_ws/src/twist_mux -DCMAKE_INSTALL_PREFIX=/home/ravi/pmb2_foxy_ws/install/twist_mux
+[0.218s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.248s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.401s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.442s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.446s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.565s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.604s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.606s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.724s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[0.748s] -- Found visualization_msgs: 2.0.5 (/opt/ros/foxy/share/visualization_msgs/cmake)
+[0.827s] CMake Error at CMakeLists.txt:18 (find_package):
+[0.827s]   By not providing "Finddiagnostic_updater.cmake" in CMAKE_MODULE_PATH this
+[0.827s]   project has asked CMake to find a package configuration file provided by
+[0.827s]   "diagnostic_updater", but CMake did not find one.
+[0.827s] 
+[0.828s]   Could not find a package configuration file provided by
+[0.828s]   "diagnostic_updater" with any of the following names:
+[0.828s] 
+[0.828s]     diagnostic_updaterConfig.cmake
+[0.828s]     diagnostic_updater-config.cmake
+[0.828s] 
+[0.828s]   Add the installation prefix of "diagnostic_updater" to CMAKE_PREFIX_PATH or
+[0.828s]   set "diagnostic_updater_DIR" to a directory containing one of the above
+[0.828s]   files.  If "diagnostic_updater" provides a separate development package or
+[0.828s]   SDK, be sure it has been installed.
+[0.828s] 
+[0.828s] 
+[0.829s] -- Configuring incomplete, errors occurred!
+[0.829s] See also "/home/ravi/pmb2_foxy_ws/build/twist_mux/CMakeFiles/CMakeOutput.log".
+[0.829s] See also "/home/ravi/pmb2_foxy_ws/build/twist_mux/CMakeFiles/CMakeError.log".
+[0.838s] Invoked command in '/home/ravi/pmb2_foxy_ws/build/twist_mux' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ravi/pmb2_foxy_ws/install/ros2controlcli:/home/ravi/pmb2_foxy_ws/install/launch_pal:/opt/ros/foxy /usr/bin/cmake /home/ravi/pmb2_foxy_ws/src/twist_mux -DCMAKE_INSTALL_PREFIX=/home/ravi/pmb2_foxy_ws/install/twist_mux

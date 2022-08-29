@@ -1,0 +1,23 @@
+[0.585s] Invoking command in '/home/ravi/pmb2_foxy_ws/build/launch_pal': PYTHONPATH=/home/ravi/pmb2_foxy_ws/install/launch_pal/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/ravi/pmb2_foxy_ws/install/launch_pal --uninstall --editable --build-directory /home/ravi/pmb2_foxy_ws/build/launch_pal/build
+[0.770s] running develop
+[0.919s] Invoked command in '/home/ravi/pmb2_foxy_ws/build/launch_pal' returned '0': PYTHONPATH=/home/ravi/pmb2_foxy_ws/install/launch_pal/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/ravi/pmb2_foxy_ws/install/launch_pal --uninstall --editable --build-directory /home/ravi/pmb2_foxy_ws/build/launch_pal/build
+[0.922s] Invoking command in '/home/ravi/pmb2_foxy_ws/src/launch_pal': PYTHONPATH=/home/ravi/pmb2_foxy_ws/install/launch_pal/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/launch_pal build --build-base /home/ravi/pmb2_foxy_ws/build/launch_pal/build install --prefix /home/ravi/pmb2_foxy_ws/install/launch_pal --record /home/ravi/pmb2_foxy_ws/build/launch_pal/install.log --single-version-externally-managed
+[1.104s] running egg_info
+[1.105s] writing ../../build/launch_pal/launch_pal.egg-info/PKG-INFO
+[1.105s] writing dependency_links to ../../build/launch_pal/launch_pal.egg-info/dependency_links.txt
+[1.105s] writing entry points to ../../build/launch_pal/launch_pal.egg-info/entry_points.txt
+[1.105s] writing requirements to ../../build/launch_pal/launch_pal.egg-info/requires.txt
+[1.105s] writing top-level names to ../../build/launch_pal/launch_pal.egg-info/top_level.txt
+[1.141s] reading manifest file '../../build/launch_pal/launch_pal.egg-info/SOURCES.txt'
+[1.143s] writing manifest file '../../build/launch_pal/launch_pal.egg-info/SOURCES.txt'
+[1.143s] running build
+[1.143s] running build_py
+[1.144s] running install
+[1.144s] running install_lib
+[1.145s] running install_data
+[1.145s] running install_egg_info
+[1.147s] removing '/home/ravi/pmb2_foxy_ws/install/launch_pal/lib/python3.8/site-packages/launch_pal-0.0.0-py3.8.egg-info' (and everything under it)
+[1.147s] Copying ../../build/launch_pal/launch_pal.egg-info to /home/ravi/pmb2_foxy_ws/install/launch_pal/lib/python3.8/site-packages/launch_pal-0.0.0-py3.8.egg-info
+[1.147s] running install_scripts
+[1.162s] writing list of installed files to '/home/ravi/pmb2_foxy_ws/build/launch_pal/install.log'
+[1.181s] Invoked command in '/home/ravi/pmb2_foxy_ws/src/launch_pal' returned '0': PYTHONPATH=/home/ravi/pmb2_foxy_ws/install/launch_pal/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/launch_pal build --build-base /home/ravi/pmb2_foxy_ws/build/launch_pal/build install --prefix /home/ravi/pmb2_foxy_ws/install/launch_pal --record /home/ravi/pmb2_foxy_ws/build/launch_pal/install.log --single-version-externally-managed

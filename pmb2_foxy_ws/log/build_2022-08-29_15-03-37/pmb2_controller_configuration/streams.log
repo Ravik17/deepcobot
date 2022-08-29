@@ -1,0 +1,58 @@
+[0.008s] Invoking command in '/home/ravi/pmb2_foxy_ws/build/pmb2_controller_configuration': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/ravi/pmb2_foxy_ws/src/pmb2_robot/pmb2_controller_configuration -DCMAKE_INSTALL_PREFIX=/home/ravi/pmb2_foxy_ws/install/pmb2_controller_configuration
+[0.042s] -- The C compiler identification is GNU 9.4.0
+[0.074s] -- The CXX compiler identification is GNU 9.4.0
+[0.076s] -- Check for working C compiler: /usr/bin/cc
+[0.129s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.129s] -- Detecting C compiler ABI info
+[0.187s] -- Detecting C compiler ABI info - done
+[0.196s] -- Detecting C compile features
+[0.197s] -- Detecting C compile features - done
+[0.199s] -- Check for working CXX compiler: /usr/bin/c++
+[0.250s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.250s] -- Detecting CXX compiler ABI info
+[0.307s] -- Detecting CXX compiler ABI info - done
+[0.314s] -- Detecting CXX compile features
+[0.315s] -- Detecting CXX compile features - done
+[0.316s] -- Found ament_cmake_auto: 0.9.9 (/opt/ros/foxy/share/ament_cmake_auto/cmake)
+[0.332s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.332s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.472s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.481s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.482s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.482s] -- Added test 'lint_cmake' to check CMake code style
+[0.482s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[0.483s] -- Added test 'xmllint' to check XML markup files
+[0.484s] -- Configuring done
+[0.485s] -- Generating done
+[0.485s] -- Build files have been written to: /home/ravi/pmb2_foxy_ws/build/pmb2_controller_configuration
+[0.488s] Invoked command in '/home/ravi/pmb2_foxy_ws/build/pmb2_controller_configuration' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/ravi/pmb2_foxy_ws/src/pmb2_robot/pmb2_controller_configuration -DCMAKE_INSTALL_PREFIX=/home/ravi/pmb2_foxy_ws/install/pmb2_controller_configuration
+[0.490s] Invoking command in '/home/ravi/pmb2_foxy_ws/build/pmb2_controller_configuration': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ravi/pmb2_foxy_ws/build/pmb2_controller_configuration -- -j8 -l8
+[0.516s] Invoked command in '/home/ravi/pmb2_foxy_ws/build/pmb2_controller_configuration' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ravi/pmb2_foxy_ws/build/pmb2_controller_configuration -- -j8 -l8
+[0.546s] Invoking command in '/home/ravi/pmb2_foxy_ws/build/pmb2_controller_configuration': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/ravi/pmb2_foxy_ws/build/pmb2_controller_configuration
+[0.553s] -- Install configuration: ""
+[0.553s] -- Installing: /home/ravi/pmb2_foxy_ws/install/pmb2_controller_configuration/share/pmb2_controller_configuration/config
+[0.553s] -- Installing: /home/ravi/pmb2_foxy_ws/install/pmb2_controller_configuration/share/pmb2_controller_configuration/config/mobile_base_controller_multipliers.yaml
+[0.553s] -- Installing: /home/ravi/pmb2_foxy_ws/install/pmb2_controller_configuration/share/pmb2_controller_configuration/config/joint_state_broadcaster.yaml
+[0.553s] -- Installing: /home/ravi/pmb2_foxy_ws/install/pmb2_controller_configuration/share/pmb2_controller_configuration/config/gazebo_controller_manager_cfg.yaml
+[0.553s] -- Installing: /home/ravi/pmb2_foxy_ws/install/pmb2_controller_configuration/share/pmb2_controller_configuration/config/joint_state_controller_extra_joints.yaml
+[0.553s] -- Installing: /home/ravi/pmb2_foxy_ws/install/pmb2_controller_configuration/share/pmb2_controller_configuration/config/mobile_base_controller.yaml
+[0.554s] -- Installing: /home/ravi/pmb2_foxy_ws/install/pmb2_controller_configuration/share/pmb2_controller_configuration/launch
+[0.554s] -- Installing: /home/ravi/pmb2_foxy_ws/install/pmb2_controller_configuration/share/pmb2_controller_configuration/launch/mobile_base_controller.launch.py
+[0.554s] -- Installing: /home/ravi/pmb2_foxy_ws/install/pmb2_controller_configuration/share/pmb2_controller_configuration/launch/default_controllers.launch.py
+[0.554s] -- Installing: /home/ravi/pmb2_foxy_ws/install/pmb2_controller_configuration/share/pmb2_controller_configuration/launch/joint_state_broadcaster.launch.py
+[0.554s] -- Installing: /home/ravi/pmb2_foxy_ws/install/pmb2_controller_configuration/share/ament_index/resource_index/package_run_dependencies/pmb2_controller_configuration
+[0.554s] -- Installing: /home/ravi/pmb2_foxy_ws/install/pmb2_controller_configuration/share/ament_index/resource_index/parent_prefix_path/pmb2_controller_configuration
+[0.554s] -- Installing: /home/ravi/pmb2_foxy_ws/install/pmb2_controller_configuration/share/pmb2_controller_configuration/environment/ament_prefix_path.sh
+[0.554s] -- Installing: /home/ravi/pmb2_foxy_ws/install/pmb2_controller_configuration/share/pmb2_controller_configuration/environment/ament_prefix_path.dsv
+[0.554s] -- Installing: /home/ravi/pmb2_foxy_ws/install/pmb2_controller_configuration/share/pmb2_controller_configuration/environment/path.sh
+[0.554s] -- Installing: /home/ravi/pmb2_foxy_ws/install/pmb2_controller_configuration/share/pmb2_controller_configuration/environment/path.dsv
+[0.554s] -- Installing: /home/ravi/pmb2_foxy_ws/install/pmb2_controller_configuration/share/pmb2_controller_configuration/local_setup.bash
+[0.554s] -- Installing: /home/ravi/pmb2_foxy_ws/install/pmb2_controller_configuration/share/pmb2_controller_configuration/local_setup.sh
+[0.554s] -- Installing: /home/ravi/pmb2_foxy_ws/install/pmb2_controller_configuration/share/pmb2_controller_configuration/local_setup.zsh
+[0.554s] -- Installing: /home/ravi/pmb2_foxy_ws/install/pmb2_controller_configuration/share/pmb2_controller_configuration/local_setup.dsv
+[0.554s] -- Installing: /home/ravi/pmb2_foxy_ws/install/pmb2_controller_configuration/share/pmb2_controller_configuration/package.dsv
+[0.554s] -- Installing: /home/ravi/pmb2_foxy_ws/install/pmb2_controller_configuration/share/ament_index/resource_index/packages/pmb2_controller_configuration
+[0.554s] -- Installing: /home/ravi/pmb2_foxy_ws/install/pmb2_controller_configuration/share/pmb2_controller_configuration/cmake/pmb2_controller_configurationConfig.cmake
+[0.554s] -- Installing: /home/ravi/pmb2_foxy_ws/install/pmb2_controller_configuration/share/pmb2_controller_configuration/cmake/pmb2_controller_configurationConfig-version.cmake
+[0.554s] -- Installing: /home/ravi/pmb2_foxy_ws/install/pmb2_controller_configuration/share/pmb2_controller_configuration/package.xml
+[0.556s] Invoked command in '/home/ravi/pmb2_foxy_ws/build/pmb2_controller_configuration' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/ravi/pmb2_foxy_ws/build/pmb2_controller_configuration

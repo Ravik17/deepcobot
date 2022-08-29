@@ -1,0 +1,16 @@
+[0.805s] Invoking command in '/home/ravi/pmb2_foxy_ws/build/launch_pal': PYTHONPATH=/home/ravi/pmb2_foxy_ws/install/launch_pal/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/ravi/pmb2_foxy_ws/install/launch_pal --editable --build-directory /home/ravi/pmb2_foxy_ws/build/launch_pal/build --no-deps install_data --install-dir /home/ravi/pmb2_foxy_ws/install/launch_pal
+[0.969s] running develop
+[1.083s] running egg_info
+[1.083s] writing launch_pal.egg-info/PKG-INFO
+[1.083s] writing dependency_links to launch_pal.egg-info/dependency_links.txt
+[1.084s] writing entry points to launch_pal.egg-info/entry_points.txt
+[1.084s] writing requirements to launch_pal.egg-info/requires.txt
+[1.084s] writing top-level names to launch_pal.egg-info/top_level.txt
+[1.127s] reading manifest file 'launch_pal.egg-info/SOURCES.txt'
+[1.127s] writing manifest file 'launch_pal.egg-info/SOURCES.txt'
+[1.162s] running build_ext
+[1.162s] Creating /home/ravi/pmb2_foxy_ws/install/launch_pal/lib/python3.8/site-packages/launch-pal.egg-link (link to .)
+[1.163s] 
+[1.163s] Installed /home/ravi/pmb2_foxy_ws/build/launch_pal
+[1.163s] running install_data
+[1.212s] Invoked command in '/home/ravi/pmb2_foxy_ws/build/launch_pal' returned '0': PYTHONPATH=/home/ravi/pmb2_foxy_ws/install/launch_pal/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/ravi/pmb2_foxy_ws/install/launch_pal --editable --build-directory /home/ravi/pmb2_foxy_ws/build/launch_pal/build --no-deps install_data --install-dir /home/ravi/pmb2_foxy_ws/install/launch_pal

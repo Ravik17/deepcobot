@@ -1,0 +1,30 @@
+[0.356s] Invoking command in '/home/ravi/pmb2_foxy_ws/build/joy_teleop': AMENT_PREFIX_PATH=/home/ravi/pmb2_foxy_ws/install/teleop_tools_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ravi/pmb2_foxy_ws/install/teleop_tools_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/ravi/pmb2_foxy_ws/install/teleop_tools_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ravi/pmb2_foxy_ws/install/joy_teleop/lib/python3.8/site-packages:/home/ravi/pmb2_foxy_ws/install/teleop_tools_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/ravi/pmb2_foxy_ws/install/joy_teleop --editable --build-directory /home/ravi/pmb2_foxy_ws/build/joy_teleop/build --no-deps install_data --install-dir /home/ravi/pmb2_foxy_ws/install/joy_teleop
+[0.480s] running develop
+[0.542s] running egg_info
+[0.542s] creating joy_teleop.egg-info
+[0.542s] writing joy_teleop.egg-info/PKG-INFO
+[0.542s] writing dependency_links to joy_teleop.egg-info/dependency_links.txt
+[0.542s] writing entry points to joy_teleop.egg-info/entry_points.txt
+[0.542s] writing requirements to joy_teleop.egg-info/requires.txt
+[0.542s] writing top-level names to joy_teleop.egg-info/top_level.txt
+[0.543s] writing manifest file 'joy_teleop.egg-info/SOURCES.txt'
+[0.562s] reading manifest file 'joy_teleop.egg-info/SOURCES.txt'
+[0.562s] writing manifest file 'joy_teleop.egg-info/SOURCES.txt'
+[0.581s] running build_ext
+[0.581s] Creating /home/ravi/pmb2_foxy_ws/install/joy_teleop/lib/python3.8/site-packages/site.py
+[0.582s] Creating /home/ravi/pmb2_foxy_ws/install/joy_teleop/lib/python3.8/site-packages/joy-teleop.egg-link (link to .)
+[0.583s] Installing incrementer_server script to /home/ravi/pmb2_foxy_ws/install/joy_teleop/lib/joy_teleop
+[0.583s] Installing joy_teleop script to /home/ravi/pmb2_foxy_ws/install/joy_teleop/lib/joy_teleop
+[0.583s] 
+[0.583s] Installed /home/ravi/pmb2_foxy_ws/build/joy_teleop
+[0.583s] running install_data
+[0.583s] copying package.xml -> /home/ravi/pmb2_foxy_ws/install/joy_teleop/share/joy_teleop
+[0.583s] creating /home/ravi/pmb2_foxy_ws/install/joy_teleop/share/joy_teleop/config
+[0.583s] copying config/joy_teleop_example.yaml -> /home/ravi/pmb2_foxy_ws/install/joy_teleop/share/joy_teleop/config
+[0.583s] creating /home/ravi/pmb2_foxy_ws/install/joy_teleop/share/joy_teleop/launch
+[0.584s] copying launch/example.launch.py -> /home/ravi/pmb2_foxy_ws/install/joy_teleop/share/joy_teleop/launch
+[0.584s] creating /home/ravi/pmb2_foxy_ws/install/joy_teleop/share/ament_index
+[0.584s] creating /home/ravi/pmb2_foxy_ws/install/joy_teleop/share/ament_index/resource_index
+[0.584s] creating /home/ravi/pmb2_foxy_ws/install/joy_teleop/share/ament_index/resource_index/packages
+[0.584s] copying resource/joy_teleop -> /home/ravi/pmb2_foxy_ws/install/joy_teleop/share/ament_index/resource_index/packages
+[0.601s] Invoked command in '/home/ravi/pmb2_foxy_ws/build/joy_teleop' returned '0': AMENT_PREFIX_PATH=/home/ravi/pmb2_foxy_ws/install/teleop_tools_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ravi/pmb2_foxy_ws/install/teleop_tools_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/ravi/pmb2_foxy_ws/install/teleop_tools_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ravi/pmb2_foxy_ws/install/joy_teleop/lib/python3.8/site-packages:/home/ravi/pmb2_foxy_ws/install/teleop_tools_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/ravi/pmb2_foxy_ws/install/joy_teleop --editable --build-directory /home/ravi/pmb2_foxy_ws/build/joy_teleop/build --no-deps install_data --install-dir /home/ravi/pmb2_foxy_ws/install/joy_teleop
