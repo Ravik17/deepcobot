@@ -2,7 +2,7 @@
 
 # Getting Started
 
-- $ git clone -b pmb2-foxy git@github.com:Ravik17/deepcobot.git
+- $ git clone -b pmb2-foxy https://github.com/Ravik17/deepcobot.git
 - cd pmb2_foxy_ws/src
 - chmod +x setup.sh
 - ./setup.sh
